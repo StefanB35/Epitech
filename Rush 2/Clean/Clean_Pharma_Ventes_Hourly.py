@@ -18,7 +18,6 @@ df['date'] = pd.to_datetime(df['date'], format='%m/%d/%Y').dt.strftime('%d/%m/%Y
 
 # Supprimer la colonne 'datum' & 'Hour'
 df = df.drop(columns=['datum'])
-df = df.drop(columns=['Hour'])
 
 # Créer le dossier Cleaned_data s'il n'existe pas
 os.makedirs('Rush 2/Cleaned_data', exist_ok=True)

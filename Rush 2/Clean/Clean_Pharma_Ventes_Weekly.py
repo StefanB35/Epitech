@@ -20,4 +20,4 @@ df = df.rename(columns={'datum': 'date'})
 os.makedirs('Rush 2/Cleaned_data', exist_ok=True)
 
 # Sauvegarder le fichier nettoyé
-df.to_csv('Rush 2/Cleaned_data/Pharma_Ventes_weekly_clean.csv', index=False)
+df.to_csv('Rush 2/Cleaned_data/Pharma_Ventes_Weekly_Clean.csv', index=False)

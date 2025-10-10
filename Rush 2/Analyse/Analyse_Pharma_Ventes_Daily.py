@@ -66,7 +66,7 @@ plt.legend(loc='upper left')
 plt.tight_layout()
 plt.show()
 
-# 3. Moyenne par nom de jour de la semaine
+# 3.1 Moyenne par nom de jour de la semaine
 weekday_order = ['Monday', 'Tuesday', 'Wednesday', 'Thursday', 'Friday', 'Saturday', 'Sunday']
 df_grouped = df.groupby('Weekday Name')[molecules].mean().reindex(weekday_order)
 
@@ -81,7 +81,24 @@ plt.legend()
 plt.tight_layout()
 plt.show()
 
-# 4. Moyenne par mois et par molécule
+# 3.2 Moyenne par nom de jour de la semaine (par catégorie)
+for cat, cols in groupes.items():
+    df[cat + '_sum'] = df[cols].sum(axis=1)
+
+df_grouped_cat = df.groupby('Weekday Name')[['M_sum', 'N_sum', 'R_sum']].mean().reindex(weekday_order)
+
+plt.figure(figsize=(12, 6))
+for cat in ['M', 'N', 'R']:
+    plt.plot(df_grouped_cat.index, df_grouped_cat[cat+'_sum'], marker='o', label=f'Catégorie {cat}')
+
+plt.title("Ventes moyennes par jour de la semaine pour chaque catégorie")
+plt.xlabel("Jour de la semaine")
+plt.ylabel("Ventes moyennes (somme)")
+plt.legend()
+plt.tight_layout()
+plt.show()
+
+# 4.1 Moyenne par mois et par molécule
 df['Month'] = df['Month'].astype(int)
 df['Year'] = df['Year'].astype(int)
 df_monthly = df.groupby(['Year', 'Month'])[molecules].mean().reset_index()
@@ -95,6 +112,21 @@ for mol in molecules:
 plt.title("Ventes moyennes mensuelles par molécule")
 plt.xlabel("Date")
 plt.ylabel("Ventes moyennes")
+plt.legend()
+plt.tight_layout()
+plt.show()
+
+# 4.2 Moyenne par mois et par catégorie
+df_monthly_cat = df.groupby(['Year', 'Month'])[['M_sum', 'N_sum', 'R_sum']].mean().reset_index()
+df_monthly_cat['date'] = pd.to_datetime(df_monthly_cat['Year'].astype(str) + '-' + df_monthly_cat['Month'].astype(str) + '-01')
+
+plt.figure(figsize=(14, 7))
+for cat in ['M', 'N', 'R']:
+    plt.plot(df_monthly_cat['date'], df_monthly_cat[cat+'_sum'], marker='o', label=f'Catégorie {cat}')
+
+plt.title("Ventes moyennes mensuelles par catégorie")
+plt.xlabel("Date")
+plt.ylabel("Ventes moyennes (somme)")
 plt.legend()
 plt.tight_layout()
 plt.show()

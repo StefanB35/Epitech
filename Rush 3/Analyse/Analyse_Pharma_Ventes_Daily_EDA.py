@@ -24,36 +24,35 @@ df['children_income_ratio'] = df['having_children_flg'] * df['credit_amount'] / 
 
 # Variables risques
 df["risk_score"] = 0
-
 # Endettement
 df.loc[df["credit_amount"] / df["income"] > 0.4, "risk_score"] += 3
 df.loc[df["credit_amount"] / df["income"] > 0.6, "risk_score"] += 2 
-
 # Durée du crédit
 df.loc[df["credit_term"] > 60, "risk_score"] += 2
 df.loc[df["credit_term"] > 120, "risk_score"] += 1
-
 # Âge
 df.loc[df["age"] < 25, "risk_score"] += 2
 df.loc[df["age"] > 60, "risk_score"] += 2
-
 # Enfants + revenus faibles
 seuil_bas = df["income"].quantile(0.25)
 df.loc[(df["having_children_flg"] == 1) & (df["income"] < seuil_bas), "risk_score"] += 2
-
 # Revenus faibles
 df.loc[df["income"] < seuil_bas, "risk_score"] += 3
-
 # Éducation
 low_edu = ["Primary", "Lower secondary"]
 df.loc[df["education"].isin(low_edu), "risk_score"] += 2
-
 # Produit risqué
 risky_prod = ["Consumer credit", "Revolving"]
 df.loc[df["product_type"].isin(risky_prod), "risk_score"] += 2
-
 # Fidélité
 df.loc[df["is_client"] == 0, "risk_score"] += 2
+# Normalisation du risk_score entre 0 et 1
+min_score = df["risk_score"].min()
+max_score = df["risk_score"].max()
+if max_score > min_score:
+    df["risk_score"] = (df["risk_score"] - min_score) / (max_score - min_score)
+# Ajout d'une colonne bad_client_risk_score (True/False) selon risk_score > 0.5
+df['bad_client_risk_score'] = df['risk_score'].apply(lambda x: 'True' if x > 0.5 else 'False')
 
 ######################################################
 # fonctions d'analyse exploratoire des données (EDA) #

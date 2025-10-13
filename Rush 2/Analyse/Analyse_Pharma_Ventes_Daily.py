@@ -48,7 +48,7 @@ plt.legend()
 plt.tight_layout()
 plt.show()
 
-# 2. Stacked area chart : part de marché des catégories dans le temps
+# 2.1 Stacked area chart : part de marché des catégories dans le temps
 for cat, cols in groupes.items():
     df[cat + '_sum'] = df[cols].sum(axis=1)
 
@@ -65,6 +65,19 @@ plt.ylabel('Ventes (somme des molécules)')
 plt.legend(loc='upper left')
 plt.tight_layout()
 plt.show()
+
+# 2.2 Stacked area chart : part de marché des catégories dans le temps année par année
+years = df_area.index.year.unique()
+for year in years:
+    df_year = df_area[df_area.index.year == year]
+    plt.figure(figsize=(14, 7))
+    plt.stackplot(df_year.index, df_year['M_sum'], df_year['N_sum'], df_year['R_sum'], labels=['M', 'N', 'R'], alpha=0.8)
+    plt.title(f'Part de marché des catégories en {year} (stacked area chart)')
+    plt.xlabel('Date')
+    plt.ylabel('Ventes (somme des molécules)')
+    plt.legend(loc='upper left')
+    plt.tight_layout()
+    plt.show()
 
 # 3.1 Moyenne par nom de jour de la semaine
 weekday_order = ['Monday', 'Tuesday', 'Wednesday', 'Thursday', 'Friday', 'Saturday', 'Sunday']

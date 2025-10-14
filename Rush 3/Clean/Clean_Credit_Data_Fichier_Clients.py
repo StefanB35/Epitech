@@ -10,9 +10,8 @@ df = df.dropna(how='all')
 # Supprimer les doublons
 df = df.drop_duplicates()
 
-# Supprimer la collonne 'bad_client_target' si elle existe
-if 'bad_client_target' in df.columns:
-    df = df.drop(columns=['bad_client_target'])
+# Ajouter une colonne 'ID' unique pour chaque client
+df.insert(0, 'ID', range(1, len(df) + 1))
 
 # Valeurs manquantes
 print("\nValeurs manquantes par colonne :")

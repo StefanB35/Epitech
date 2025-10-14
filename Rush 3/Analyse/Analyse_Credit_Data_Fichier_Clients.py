@@ -10,6 +10,10 @@ import os
 # Remplace le chemin par celui de ton fichier CSV
 df = pd.read_csv('Rush 3\Cleaned_data\Clean_Credit_Data_Fichier_Clients.csv')
 
+# Supprimer la collonne 'bad_client_target' si elle existe
+if 'bad_client_target' in df.columns:
+    df = df.drop(columns=['bad_client_target'])
+
 # Variables quantitatives
 quant_vars = ['credit_amount', 'credit_term', 'age', 'income']
 

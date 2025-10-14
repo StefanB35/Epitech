@@ -295,4 +295,4 @@ def eda_barplot_is_client_bad_client_risk_score(df):
 os.makedirs('Rush 3/Risque_data', exist_ok=True)
 
 # Sauvegarder le fichier avec les risques
-df.to_csv('Rush 3/Risque_data/Risque_Credit_Data_Fichier_Clients.csv', index=False)
+df.to_csv('Rush 3/Risque_data/Risque_Credit_Data_Fichier_Clients_Supp_Bad.csv', index=False)

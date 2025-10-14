@@ -25,7 +25,7 @@ df['children_income_ratio'] = df['having_children_flg'] * df['credit_amount'] / 
 # Variables risques
 df["risk_score"] = 0
 # Endettement
-df.loc[df["credit_amount"] / df["income"] > 0.4, "risk_score"] += 3
+df.loc[df["credit_amount"] / df["income"] > 0.3, "risk_score"] += 3
 df.loc[df["credit_amount"] / df["income"] > 0.6, "risk_score"] += 2 
 # Durée du crédit
 df.loc[df["credit_term"] > 60, "risk_score"] += 2

@@ -104,9 +104,9 @@ def eda_corr(df):
 # 4. Scatterplot : credit_amount vs income (avec seuil de debt_ratio)
 def eda_scatter_credit_income(df):
     plt.figure(figsize=(8,6))
-    sns.scatterplot(x='income', y='credit_amount', data=df, hue=(df['debt_ratio'] > 0.4))
-    plt.axline((0, 0), slope=0.4, color='red', linestyle='--', label='debt_ratio=0.4')
-    plt.title('Montant du crédit vs Revenu (debt_ratio>0.4 en couleur)')
+    sns.scatterplot(x='income', y='credit_amount', data=df, hue=(df['debt_ratio'] > 0.3))
+    plt.axline((0, 0), slope=0.3, color='red', linestyle='--', label='debt_ratio=0.3')
+    plt.title('Montant du crédit vs Revenu (debt_ratio>0.3 en couleur)')
     plt.legend()
     plt.show()
 
@@ -285,7 +285,6 @@ def eda_barplot_is_client_bad_client_risk_score(df):
 # eda_barplot_family_status_bad_client_risk_score(df)
 # eda_barplot_phone_operator_bad_client_risk_score(df)
 # eda_barplot_is_client_bad_client_risk_score(df)
-
 
 ##################################
 # Créer le dossier et le fichier #

@@ -100,9 +100,9 @@ def eda_corr(df):
 # 4. Scatterplot : credit_amount vs income (avec seuil de debt_ratio)
 def eda_scatter_credit_income(df):
     plt.figure(figsize=(8,6))
-    sns.scatterplot(x='income', y='credit_amount', data=df, hue=(df['debt_ratio'] > 0.4))
-    plt.axline((0, 0), slope=0.4, color='red', linestyle='--', label='debt_ratio=0.4')
-    plt.title('Montant du crédit vs Revenu (debt_ratio>0.4 en couleur)')
+    sns.scatterplot(x='income', y='credit_amount', data=df, hue=(df['debt_ratio'] > 0.3))
+    plt.axline((0, 0), slope=0.3, color='red', linestyle='--', label='debt_ratio=0.3')
+    plt.title('Montant du crédit vs Revenu (debt_ratio>0.3 en couleur)')
     plt.legend()
     plt.show()
 
@@ -254,34 +254,166 @@ def eda_barplot_is_client_bad_client_risk_score(df):
     plt.xticks(rotation=45)
     plt.show()
 
+#######################################################################
+# Analyse de la proportion de mauvais clients selon bad_client_target #
+#######################################################################
+
+# 22. Barplot : month par bad_client_target
+def eda_barplot_month_bad_client_target(df):
+    plt.figure(figsize=(8,6))
+    sns.countplot(x='month', hue='bad_client_target', data=df)
+    plt.title('Répartition des month par bad_client_target')
+    plt.xticks(rotation=45)
+    plt.show()
+
+# 23. Barplot : credit_amount par bad_client_target
+def eda_barplot_credit_amount_bad_client_target(df):
+    plt.figure(figsize=(8,6))
+    sns.countplot(x='credit_amount', hue='bad_client_target', data=df)
+    plt.title('Répartition des credit_amount par bad_client_target')
+    plt.xticks(rotation=45)
+    plt.show()
+
+# 24. Barplot : credit_term par bad_client_target
+def eda_barplot_credit_term_bad_client_target(df):
+    plt.figure(figsize=(8,6))
+    sns.countplot(x='credit_term', hue='bad_client_target', data=df)
+    plt.title('Répartition des credit_term par bad_client_target')
+    plt.xticks(rotation=45)
+    plt.show()
+
+# 25. Barplot : age par bad_client_target
+def eda_barplot_age_bad_client_target(df):
+    plt.figure(figsize=(8,6))
+    sns.countplot(x='age', hue='bad_client_target', data=df)
+    plt.title('Répartition des age par bad_client_target')
+    plt.xticks(rotation=45)
+    plt.show()
+
+# 26. Barplot : sex par bad_client_target
+def eda_barplot_sex_bad_client_target(df):
+    plt.figure(figsize=(8,6))
+    sns.countplot(x='sex', hue='bad_client_target', data=df)
+    plt.title('Répartition des sex par bad_client_target')
+    plt.xticks(rotation=45)
+    plt.show()
+
+# 27. Barplot : education par bad_client_target
+def eda_barplot_education_bad_client_target(df):
+    plt.figure(figsize=(8,6))
+    sns.countplot(x='education', hue='bad_client_target', data=df)
+    plt.title('Répartition des education par bad_client_target')
+    plt.xticks(rotation=45)
+    plt.show()
+
+# 28. Barplot : product_type par bad_client_target
+def eda_barplot_product_type_bad_client_target(df):
+    plt.figure(figsize=(8,6))
+    sns.countplot(x='product_type', hue='bad_client_target', data=df)
+    plt.title('Répartition des produits par bad_client_target')
+    plt.xticks(rotation=45)
+    plt.show()
+
+# 29. Barplot : having_children_flg par bad_client_target
+def eda_barplot_having_children_flg_bad_client_target(df):
+    plt.figure(figsize=(8,6))
+    sns.countplot(x='having_children_flg', hue='bad_client_target', data=df)
+    plt.title('Répartition des having_children_flg par bad_client_target')
+    plt.xticks(rotation=45)
+    plt.show()
+
+# 30. Barplot : region par bad_client_target
+def eda_barplot_region_bad_client_target(df):
+    plt.figure(figsize=(8,6))
+    sns.countplot(x='region', hue='bad_client_target', data=df)
+    plt.title('Répartition des region par bad_client_target')
+    plt.xticks(rotation=45)
+    plt.show()
+
+# 31. Barplot : region par bad_client_target
+def eda_barplot_region_bad_client_target(df):
+    plt.figure(figsize=(8,6))
+    sns.countplot(x='region', hue='bad_client_target', data=df)
+    plt.title('Répartition des region par bad_client_target')
+    plt.xticks(rotation=45)
+    plt.show()
+
+# 32. Barplot : income par bad_client_target
+def eda_barplot_income_bad_client_target(df):
+    plt.figure(figsize=(8,6))
+    sns.countplot(x='income', hue='bad_client_target', data=df)
+    plt.title('Répartition des income par bad_client_target')
+    plt.xticks(rotation=45)
+    plt.show()
+
+# 33. Barplot : family_status par bad_client_target
+def eda_barplot_family_status_bad_client_target(df):
+    plt.figure(figsize=(8,6))
+    sns.countplot(x='family_status', hue='bad_client_target', data=df)
+    plt.title('Répartition des family_status par bad_client_target')
+    plt.xticks(rotation=45)
+    plt.show()
+
+# 34. Barplot : phone_operator par bad_client_target
+def eda_barplot_phone_operator_bad_client_target(df):
+    plt.figure(figsize=(8,6))
+    sns.countplot(x='phone_operator', hue='bad_client_target', data=df)
+    plt.title('Répartition des phone_operator par bad_client_target')
+    plt.xticks(rotation=45)
+    plt.show()
+
+# 35. Barplot : is_client par bad_client_target
+def eda_barplot_is_client_bad_client_target(df):
+    plt.figure(figsize=(8,6))
+    sns.countplot(x='is_client', hue='bad_client_target', data=df)
+    plt.title('Répartition des is_client par bad_client_target')
+    plt.xticks(rotation=45)
+    plt.show()
+
 ##############################
 # Code d'appel des fonctions #
 ##############################
 
-# eda_overview(df)
-# eda_univariate_quant(df)
-# eda_univariate_cat(df)
-# eda_corr(df)
-# eda_scatter_credit_income(df)
-# eda_boxplot_term_age(df)            # utiles ?
-# eda_boxplot_income_region(df)       # utiles ?
-# eda_boxplot_credit_education(df)    # utiles ?
-# eda_barplot_product_type_sexe(df)
-# eda_barplot_month_bad_client_risk_score(df)
-# eda_barplot_credit_amount_bad_client_risk_score(df)
-# eda_barplot_credit_term_bad_client_risk_score(df)
-# eda_barplot_age_bad_client_risk_score(df)
-# eda_barplot_sex_bad_client_risk_score(df)
-# eda_barplot_education_bad_client_risk_score(df)
-# eda_barplot_product_type_bad_client_risk_score(df)
-# eda_barplot_having_children_flg_bad_client_risk_score(df)
-# eda_barplot_region_bad_client_risk_score(df)
-# eda_barplot_region_bad_client_risk_score(df)
-# eda_barplot_income_bad_client_risk_score(df)
-# eda_barplot_family_status_bad_client_risk_score(df)
-# eda_barplot_phone_operator_bad_client_risk_score(df)
-# eda_barplot_is_client_bad_client_risk_score(df)
+eda_overview(df)
+eda_univariate_quant(df)
+eda_univariate_cat(df)
+eda_corr(df)
 
+eda_scatter_credit_income(df)
+eda_boxplot_term_age(df)            # utiles ?
+eda_boxplot_income_region(df)       # utiles ?
+eda_boxplot_credit_education(df)    # utiles ?
+eda_barplot_product_type_sexe(df)
+
+eda_barplot_month_bad_client_risk_score(df)
+eda_barplot_credit_amount_bad_client_risk_score(df)
+eda_barplot_credit_term_bad_client_risk_score(df)
+eda_barplot_age_bad_client_risk_score(df)
+eda_barplot_sex_bad_client_risk_score(df)
+eda_barplot_education_bad_client_risk_score(df)
+eda_barplot_product_type_bad_client_risk_score(df)
+eda_barplot_having_children_flg_bad_client_risk_score(df)
+eda_barplot_region_bad_client_risk_score(df)
+eda_barplot_region_bad_client_risk_score(df)
+eda_barplot_income_bad_client_risk_score(df)
+eda_barplot_family_status_bad_client_risk_score(df)
+eda_barplot_phone_operator_bad_client_risk_score(df)
+eda_barplot_is_client_bad_client_risk_score(df)
+
+eda_barplot_month_bad_client_target(df)
+eda_barplot_credit_amount_bad_client_target(df)
+eda_barplot_credit_term_bad_client_target(df)
+eda_barplot_age_bad_client_target(df)
+eda_barplot_sex_bad_client_target(df)
+eda_barplot_education_bad_client_target(df)
+eda_barplot_product_type_bad_client_target(df)# 
+eda_barplot_having_children_flg_bad_client_target(df)
+eda_barplot_region_bad_client_target(df)
+eda_barplot_region_bad_client_target(df)
+eda_barplot_income_bad_client_target(df)
+eda_barplot_family_status_bad_client_target(df)
+eda_barplot_phone_operator_bad_client_target(df)
+eda_barplot_is_client_bad_client_target(df)
 
 ##################################
 # Créer le dossier et le fichier #

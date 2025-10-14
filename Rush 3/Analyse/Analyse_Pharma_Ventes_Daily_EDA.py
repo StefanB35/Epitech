@@ -138,6 +138,122 @@ def eda_barplot_product_type_sexe(df):
     plt.xticks(rotation=45)
     plt.show()
 
+###########################################################################
+# Analyse de la proportion de mauvais clients selon bad_client_risk_score #
+###########################################################################
+
+# 9. Barplot : month par bad_client_risk_score
+def eda_barplot_month_bad_client_risk_score(df):
+    plt.figure(figsize=(8,6))
+    sns.countplot(x='month', hue='bad_client_risk_score', data=df)
+    plt.title('Répartition des month par bad_client_risk_score')
+    plt.xticks(rotation=45)
+    plt.show()
+
+# 10. Barplot : credit_amount par bad_client_risk_score
+def eda_barplot_credit_amount_bad_client_risk_score(df):
+    plt.figure(figsize=(8,6))
+    sns.countplot(x='credit_amount', hue='bad_client_risk_score', data=df)
+    plt.title('Répartition des credit_amount par bad_client_risk_score')
+    plt.xticks(rotation=45)
+    plt.show()
+
+# 11. Barplot : credit_term par bad_client_risk_score
+def eda_barplot_credit_term_bad_client_risk_score(df):
+    plt.figure(figsize=(8,6))
+    sns.countplot(x='credit_term', hue='bad_client_risk_score', data=df)
+    plt.title('Répartition des credit_term par bad_client_risk_score')
+    plt.xticks(rotation=45)
+    plt.show()
+
+# 12. Barplot : age par bad_client_risk_score
+def eda_barplot_age_bad_client_risk_score(df):
+    plt.figure(figsize=(8,6))
+    sns.countplot(x='age', hue='bad_client_risk_score', data=df)
+    plt.title('Répartition des age par bad_client_risk_score')
+    plt.xticks(rotation=45)
+    plt.show()
+
+# 13. Barplot : sex par bad_client_risk_score
+def eda_barplot_sex_bad_client_risk_score(df):
+    plt.figure(figsize=(8,6))
+    sns.countplot(x='sex', hue='bad_client_risk_score', data=df)
+    plt.title('Répartition des sex par bad_client_risk_score')
+    plt.xticks(rotation=45)
+    plt.show()
+
+# 14. Barplot : education par bad_client_risk_score
+def eda_barplot_education_bad_client_risk_score(df):
+    plt.figure(figsize=(8,6))
+    sns.countplot(x='education', hue='bad_client_risk_score', data=df)
+    plt.title('Répartition des education par bad_client_risk_score')
+    plt.xticks(rotation=45)
+    plt.show()
+
+# 15. Barplot : product_type par bad_client_risk_score
+def eda_barplot_product_type_bad_client_risk_score(df):
+    plt.figure(figsize=(8,6))
+    sns.countplot(x='product_type', hue='bad_client_risk_score', data=df)
+    plt.title('Répartition des produits par bad_client_risk_score')
+    plt.xticks(rotation=45)
+    plt.show()
+
+# 16. Barplot : having_children_flg par bad_client_risk_score
+def eda_barplot_having_children_flg_bad_client_risk_score(df):
+    plt.figure(figsize=(8,6))
+    sns.countplot(x='having_children_flg', hue='bad_client_risk_score', data=df)
+    plt.title('Répartition des having_children_flg par bad_client_risk_score')
+    plt.xticks(rotation=45)
+    plt.show()
+
+# 17. Barplot : region par bad_client_risk_score
+def eda_barplot_region_bad_client_risk_score(df):
+    plt.figure(figsize=(8,6))
+    sns.countplot(x='region', hue='bad_client_risk_score', data=df)
+    plt.title('Répartition des region par bad_client_risk_score')
+    plt.xticks(rotation=45)
+    plt.show()
+
+# 18. Barplot : region par bad_client_risk_score
+def eda_barplot_region_bad_client_risk_score(df):
+    plt.figure(figsize=(8,6))
+    sns.countplot(x='region', hue='bad_client_risk_score', data=df)
+    plt.title('Répartition des region par bad_client_risk_score')
+    plt.xticks(rotation=45)
+    plt.show()
+
+# 19. Barplot : income par bad_client_risk_score
+def eda_barplot_income_bad_client_risk_score(df):
+    plt.figure(figsize=(8,6))
+    sns.countplot(x='income', hue='bad_client_risk_score', data=df)
+    plt.title('Répartition des income par bad_client_risk_score')
+    plt.xticks(rotation=45)
+    plt.show()
+
+# 19. Barplot : family_status par bad_client_risk_score
+def eda_barplot_family_status_bad_client_risk_score(df):
+    plt.figure(figsize=(8,6))
+    sns.countplot(x='family_status', hue='bad_client_risk_score', data=df)
+    plt.title('Répartition des family_status par bad_client_risk_score')
+    plt.xticks(rotation=45)
+    plt.show()
+
+# 20. Barplot : phone_operator par bad_client_risk_score
+def eda_barplot_phone_operator_bad_client_risk_score(df):
+    plt.figure(figsize=(8,6))
+    sns.countplot(x='phone_operator', hue='bad_client_risk_score', data=df)
+    plt.title('Répartition des phone_operator par bad_client_risk_score')
+    plt.xticks(rotation=45)
+    plt.show()
+
+# 21. Barplot : is_client par bad_client_risk_score
+def eda_barplot_is_client_bad_client_risk_score(df):
+    plt.figure(figsize=(8,6))
+    sns.countplot(x='is_client', hue='bad_client_risk_score', data=df)
+    plt.title('Répartition des is_client par bad_client_risk_score')
+    plt.xticks(rotation=45)
+    plt.show()
+
 ##############################
 # Code d'appel des fonctions #
 ##############################
@@ -151,6 +267,21 @@ def eda_barplot_product_type_sexe(df):
 # eda_boxplot_income_region(df)       # utiles ?
 # eda_boxplot_credit_education(df)    # utiles ?
 # eda_barplot_product_type_sexe(df)
+# eda_barplot_month_bad_client_risk_score(df)
+# eda_barplot_credit_amount_bad_client_risk_score(df)
+# eda_barplot_credit_term_bad_client_risk_score(df)
+# eda_barplot_age_bad_client_risk_score(df)
+# eda_barplot_sex_bad_client_risk_score(df)
+# eda_barplot_education_bad_client_risk_score(df)
+# eda_barplot_product_type_bad_client_risk_score(df)
+# eda_barplot_having_children_flg_bad_client_risk_score(df)
+# eda_barplot_region_bad_client_risk_score(df)
+# eda_barplot_region_bad_client_risk_score(df)
+# eda_barplot_income_bad_client_risk_score(df)
+# eda_barplot_family_status_bad_client_risk_score(df)
+# eda_barplot_phone_operator_bad_client_risk_score(df)
+# eda_barplot_is_client_bad_client_risk_score(df)
+
 
 ##################################
 # Créer le dossier et le fichier #

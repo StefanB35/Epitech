@@ -2,6 +2,7 @@ import pandas as pd
 from sklearn.preprocessing import StandardScaler, LabelEncoder
 from sklearn.cluster import KMeans
 import matplotlib.pyplot as plt
+from scipy.cluster.hierarchy import dendrogram, linkage
 
 # Charger les données
 df = pd.read_csv('Rush 4/Cleaned_data/Clean_Camp_Market.csv')
@@ -45,4 +46,11 @@ df['cluster'] = kmeans.fit_predict(X_scaled)
 
 print(df[['ID','cluster']].head())
 
-# Visualisation simple (PCA possible si besoin)
+linked = linkage(X_scaled, method='ward')
+plt.figure(figsize=(12, 6))
+dendrogram(linked, truncate_mode='level', p=10)
+plt.title('Dendrogramme (Ward linkage)')
+plt.xlabel('Échantillons ou clusters fusionnés')
+plt.ylabel('Distance')
+plt.tight_layout()
+plt.show()

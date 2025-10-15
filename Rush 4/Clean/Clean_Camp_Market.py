@@ -19,12 +19,22 @@ print(df.describe())
 # Supprimer les lignes entièrement vides
 df = df.dropna(how='all')
 
+# Remplacer 'Alone' par 'Single' dans la colonne 'Marital_Status'
+df['Marital_Status'] = df['Marital_Status'].replace('Alone', 'Single')
+
 # Supprimer les personnes qui n'ont pas de Income
 df = df.dropna(subset=['Income'])
+
+# Supprimer les personnes avec 'Absurd' ou 'YOLO' dans 'Marital_Status'
+df = df[~df['Marital_Status'].isin(['Absurd', 'YOLO'])]
 
 # Supprimer la colonne 'Z_CostContact' et 'Z_Revenue' si elles existent
 df = df.drop(columns=['Z_CostContact'], errors='ignore')
 df = df.drop(columns=['Z_Revenue'], errors='ignore') 
+
+# Supprimer les personnes de plus de 90 ans selon Year_Birth
+current_year = pd.Timestamp.now().year
+df = df[(current_year - df['Year_Birth']) <= 90]
 
 # Supprimer les doublons
 df = df.drop_duplicates()

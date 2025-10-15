@@ -24,7 +24,7 @@ df = df.dropna(subset=['Income'])
 
 # Supprimer la colonne 'Z_CostContact' et 'Z_Revenue' si elles existent
 df = df.drop(columns=['Z_CostContact'], errors='ignore')
-df = df.drop(columns=['Z_Revenue'], errors='ignore')
+df = df.drop(columns=['Z_Revenue'], errors='ignore') 
 
 # Supprimer les doublons
 df = df.drop_duplicates()
@@ -36,4 +36,4 @@ df['Dt_Customer'] = pd.to_datetime(df['Dt_Customer'], format='%Y-%m-%d').dt.strf
 os.makedirs('Rush 4/Cleaned_data', exist_ok=True)
 
 # Sauvegarder le fichier nettoyé
-df.to_csv('Rush 4/Cleaned_data/Clean_Credit_Data_Fichier_Clients.csv', index=False)
+df.to_csv('Rush 4/Cleaned_data/Clean_Camp_Market.csv', index=False)

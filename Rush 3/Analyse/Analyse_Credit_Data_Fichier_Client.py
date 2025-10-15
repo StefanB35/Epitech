@@ -7,7 +7,7 @@ import os
 # Charger les données #
 #######################
 
-# Remplace le chemin par celui de ton fichier CSV
+# Charger les fichiers CSV
 df = pd.read_csv('Rush 3\Cleaned_data\Clean_Credit_Data_Fichier_Clients.csv')
 
 # Variables quantitatives

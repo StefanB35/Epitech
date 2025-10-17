@@ -33,7 +33,7 @@ df = df.drop(columns=['Z_CostContact'], errors='ignore')
 df = df.drop(columns=['Z_Revenue'], errors='ignore') 
 
 # Supprimer les personnes de plus de 90 ans selon Year_Birth
-current_year = pd.Timestamp.now().year
+current_year = 2022
 df = df[(current_year - df['Year_Birth']) <= 90]
 
 # Supprimer les doublons

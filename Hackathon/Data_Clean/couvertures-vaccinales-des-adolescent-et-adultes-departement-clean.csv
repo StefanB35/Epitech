@@ -1,0 +1,1415 @@
+Année,Département Code,Département,Grippe moins de 65 ans à risque,Grippe 65 ans et plus,Grippe 65-74 ans,Grippe 75 ans et plus,Covid-19 65 ans et plus,Région,Région Code
+2011,3,Allier,,,,,,Auvergne et Rhône-Alpes,84
+2011,6,Alpes-Maritimes,,,,,,Provence-Alpes-Côte d'Azur,93
+2011,7,Ardèche,,,,,,Auvergne et Rhône-Alpes,84
+2011,17,Charente-Maritime,,,,,,Nouvelle Aquitaine,75
+2011,23,Creuse,,,,,,Nouvelle Aquitaine,75
+2011,25,Doubs,,,,,,Bourgogne et Franche-Comté,27
+2011,29,Finistère,,,,,,Bretagne,53
+2011,32,Gers,,,,,,Occitanie,76
+2011,35,Ille-et-Vilaine,,,,,,Bretagne,53
+2011,36,Indre,,,,,,Centre-Val de Loire,24
+2011,38,Isère,,,,,,Auvergne et Rhône-Alpes,84
+2011,39,Jura,,,,,,Bourgogne et Franche-Comté,27
+2011,41,Loir-et-Cher,,,,,,Centre-Val de Loire,24
+2011,42,Loire,,,,,,Auvergne et Rhône-Alpes,84
+2011,45,Loiret,,,,,,Centre-Val de Loire,24
+2011,47,Lot-et-Garonne,,,,,,Nouvelle Aquitaine,75
+2011,49,Maine-et-Loire,,,,,,Pays de la Loire,52
+2011,56,Morbihan,,,,,,Bretagne,53
+2011,58,Nièvre,,,,,,Bourgogne et Franche-Comté,27
+2011,62,Pas-de-Calais,,,,,,Hauts-de-France,32
+2011,64,Pyrénées-Atlantiques,,,,,,Nouvelle Aquitaine,75
+2011,66,Pyrénées-Orientales,,,,,,Occitanie,76
+2011,68,Haut-Rhin,,,,,,Grand Est,44
+2011,69,Rhône,,,,,,Auvergne et Rhône-Alpes,84
+2011,73,Savoie,,,,,,Auvergne et Rhône-Alpes,84
+2011,77,Seine-et-Marne,,,,,,Île-de-France,11
+2011,84,Vaucluse,,,,,,Provence-Alpes-Côte d'Azur,93
+2011,87,Haute-Vienne,,,,,,Nouvelle Aquitaine,75
+2011,93,Seine-Saint-Denis,,,,,,Île-de-France,11
+2011,94,Val-de-Marne,,,,,,Île-de-France,11
+2012,03,Allier,,,,,,Auvergne et Rhône-Alpes,84
+2012,05,Hautes-Alpes,,,,,,Provence-Alpes-Côte d'Azur,93
+2012,07,Ardèche,,,,,,Auvergne et Rhône-Alpes,84
+2012,08,Ardennes,,,,,,Grand Est,44
+2012,10,Aube,,,,,,Grand Est,44
+2012,11,Aude,,,,,,Occitanie,76
+2012,15,Cantal,,,,,,Auvergne et Rhône-Alpes,84
+2012,18,Cher,,,,,,Centre-Val de Loire,24
+2012,19,Corrèze,,,,,,Nouvelle Aquitaine,75
+2012,21,Côte-d'Or,,,,,,Bourgogne et Franche-Comté,27
+2012,22,Côtes-d'Armor,,,,,,Bretagne,53
+2012,23,Creuse,,,,,,Nouvelle Aquitaine,75
+2012,24,Dordogne,,,,,,Nouvelle Aquitaine,75
+2012,28,Eure-et-Loir,,,,,,Centre-Val de Loire,24
+2012,31,Haute-Garonne,,,,,,Occitanie,76
+2012,36,Indre,,,,,,Centre-Val de Loire,24
+2012,37,Indre-et-Loire,,,,,,Centre-Val de Loire,24
+2012,38,Isère,,,,,,Auvergne et Rhône-Alpes,84
+2012,40,Landes,,,,,,Nouvelle Aquitaine,75
+2012,46,Lot,,,,,,Occitanie,76
+2012,48,Lozère,,,,,,Occitanie,76
+2012,49,Maine-et-Loire,,,,,,Pays de la Loire,52
+2012,50,Manche,,,,,,Normandie,28
+2012,52,Haute-Marne,,,,,,Grand Est,44
+2012,53,Mayenne,,,,,,Pays de la Loire,52
+2012,57,Moselle,,,,,,Grand Est,44
+2012,59,Nord,,,,,,Hauts-de-France,32
+2012,61,Orne,,,,,,Normandie,28
+2012,63,Puy-de-Dôme,,,,,,Auvergne et Rhône-Alpes,84
+2012,65,Hautes-Pyrénées,,,,,,Occitanie,76
+2012,70,Haute-Saône,,,,,,Bourgogne et Franche-Comté,27
+2012,74,Haute-Savoie,,,,,,Auvergne et Rhône-Alpes,84
+2012,75,Paris,,,,,,Île-de-France,11
+2012,76,Seine-Maritime,,,,,,Normandie,28
+2012,80,Somme,,,,,,Hauts-de-France,32
+2012,82,Tarn-et-Garonne,,,,,,Occitanie,76
+2012,83,Var,,,,,,Provence-Alpes-Côte d'Azur,93
+2012,88,Vosges,,,,,,Grand Est,44
+2012,89,Yonne,,,,,,Bourgogne et Franche-Comté,27
+2012,95,Val-d'Oise,,,,,,Île-de-France,11
+2012,972,Martinique,,,,,,Martinique,2
+2012,2B,Haute-Corse,,,,,,Corse,94
+2013,03,Allier,,,,,,Auvergne et Rhône-Alpes,84
+2013,06,Alpes-Maritimes,,,,,,Provence-Alpes-Côte d'Azur,93
+2013,07,Ardèche,,,,,,Auvergne et Rhône-Alpes,84
+2013,14,Calvados,,,,,,Normandie,28
+2013,15,Cantal,,,,,,Auvergne et Rhône-Alpes,84
+2013,22,Côtes-d'Armor,,,,,,Bretagne,53
+2013,23,Creuse,,,,,,Nouvelle Aquitaine,75
+2013,26,Drôme,,,,,,Auvergne et Rhône-Alpes,84
+2013,28,Eure-et-Loir,,,,,,Centre-Val de Loire,24
+2013,30,Gard,,,,,,Occitanie,76
+2013,37,Indre-et-Loire,,,,,,Centre-Val de Loire,24
+2013,40,Landes,,,,,,Nouvelle Aquitaine,75
+2013,43,Haute-Loire,,,,,,Auvergne et Rhône-Alpes,84
+2013,44,Loire-Atlantique,,,,,,Pays de la Loire,52
+2013,45,Loiret,,,,,,Centre-Val de Loire,24
+2013,46,Lot,,,,,,Occitanie,76
+2013,49,Maine-et-Loire,,,,,,Pays de la Loire,52
+2013,50,Manche,,,,,,Normandie,28
+2013,53,Mayenne,,,,,,Pays de la Loire,52
+2013,54,Meurthe-et-Moselle,,,,,,Grand Est,44
+2013,57,Moselle,,,,,,Grand Est,44
+2013,61,Orne,,,,,,Normandie,28
+2013,64,Pyrénées-Atlantiques,,,,,,Nouvelle Aquitaine,75
+2013,66,Pyrénées-Orientales,,,,,,Occitanie,76
+2013,67,Bas-Rhin,,,,,,Grand Est,44
+2013,69,Rhône,,,,,,Auvergne et Rhône-Alpes,84
+2013,71,Saône-et-Loire,,,,,,Bourgogne et Franche-Comté,27
+2013,75,Paris,,,,,,Île-de-France,11
+2013,78,Yvelines,,,,,,Île-de-France,11
+2013,85,Vendée,,,,,,Pays de la Loire,52
+2013,88,Vosges,,,,,,Grand Est,44
+2013,90,Territoire de Belfort,,,,,,Bourgogne et Franche-Comté,27
+2013,972,Martinique,,,,,,Martinique,2
+2013,974,Réunion,,,,,,Réunion,4
+2014,10,Aube,,,,,,Grand Est,44
+2014,11,Aude,,,,,,Occitanie,76
+2014,12,Aveyron,,,,,,Occitanie,76
+2014,13,Bouches-du-Rhône,,,,,,Provence-Alpes-Côte d'Azur,93
+2014,16,Charente,,,,,,Nouvelle Aquitaine,75
+2014,17,Charente-Maritime,,,,,,Nouvelle Aquitaine,75
+2014,18,Cher,,,,,,Centre-Val de Loire,24
+2014,21,Côte-d'Or,,,,,,Bourgogne et Franche-Comté,27
+2014,22,Côtes-d'Armor,,,,,,Bretagne,53
+2014,23,Creuse,,,,,,Nouvelle Aquitaine,75
+2014,28,Eure-et-Loir,,,,,,Centre-Val de Loire,24
+2014,31,Haute-Garonne,,,,,,Occitanie,76
+2014,35,Ille-et-Vilaine,,,,,,Bretagne,53
+2014,38,Isère,,,,,,Auvergne et Rhône-Alpes,84
+2014,39,Jura,,,,,,Bourgogne et Franche-Comté,27
+2014,42,Loire,,,,,,Auvergne et Rhône-Alpes,84
+2014,45,Loiret,,,,,,Centre-Val de Loire,24
+2014,47,Lot-et-Garonne,,,,,,Nouvelle Aquitaine,75
+2014,50,Manche,,,,,,Normandie,28
+2014,62,Pas-de-Calais,,,,,,Hauts-de-France,32
+2014,64,Pyrénées-Atlantiques,,,,,,Nouvelle Aquitaine,75
+2014,67,Bas-Rhin,,,,,,Grand Est,44
+2014,75,Paris,,,,,,Île-de-France,11
+2014,78,Yvelines,,,,,,Île-de-France,11
+2014,81,Tarn,,,,,,Occitanie,76
+2014,90,Territoire de Belfort,,,,,,Bourgogne et Franche-Comté,27
+2014,91,Essonne,,,,,,Île-de-France,11
+2014,971,Guadeloupe,,,,,,Guadeloupe,1
+2014,973,Guyane,,,,,,Guyane,3
+2014,974,Réunion,,,,,,Réunion,4
+2015,04,Alpes-de-Haute-Provence,,,,,,Provence-Alpes-Côte d'Azur,93
+2015,05,Hautes-Alpes,,,,,,Provence-Alpes-Côte d'Azur,93
+2015,11,Aude,,,,,,Occitanie,76
+2015,23,Creuse,,,,,,Nouvelle Aquitaine,75
+2015,26,Drôme,,,,,,Auvergne et Rhône-Alpes,84
+2015,29,Finistère,,,,,,Bretagne,53
+2015,34,Hérault,,,,,,Occitanie,76
+2015,38,Isère,,,,,,Auvergne et Rhône-Alpes,84
+2015,40,Landes,,,,,,Nouvelle Aquitaine,75
+2015,42,Loire,,,,,,Auvergne et Rhône-Alpes,84
+2015,45,Loiret,,,,,,Centre-Val de Loire,24
+2015,46,Lot,,,,,,Occitanie,76
+2015,50,Manche,,,,,,Normandie,28
+2015,55,Meuse,,,,,,Grand Est,44
+2015,61,Orne,,,,,,Normandie,28
+2015,62,Pas-de-Calais,,,,,,Hauts-de-France,32
+2015,63,Puy-de-Dôme,,,,,,Auvergne et Rhône-Alpes,84
+2015,74,Haute-Savoie,,,,,,Auvergne et Rhône-Alpes,84
+2015,77,Seine-et-Marne,,,,,,Île-de-France,11
+2015,80,Somme,,,,,,Hauts-de-France,32
+2015,83,Var,,,,,,Provence-Alpes-Côte d'Azur,93
+2015,84,Vaucluse,,,,,,Provence-Alpes-Côte d'Azur,93
+2015,87,Haute-Vienne,,,,,,Nouvelle Aquitaine,75
+2015,94,Val-de-Marne,,,,,,Île-de-France,11
+2015,971,Guadeloupe,,,,,,Guadeloupe,1
+2015,2A,Corse-du-Sud,,,,,,Corse,94
+2016,01,Ain,28.4,46.8,,,,Auvergne et Rhône-Alpes,84
+2016,02,Aisne,34.8,54.4,,,,Hauts-de-France,32
+2016,03,Allier,31.3,51.5,,,,Auvergne et Rhône-Alpes,84
+2016,05,Hautes-Alpes,26.1,45.5,,,,Provence-Alpes-Côte d'Azur,93
+2016,07,Ardèche,26.4,46.2,,,,Auvergne et Rhône-Alpes,84
+2016,09,Ariège,22.4,45.7,,,,Occitanie,76
+2016,11,Aude,26.7,49.5,,,,Occitanie,76
+2016,12,Aveyron,29.3,48.4,,,,Occitanie,76
+2016,14,Calvados,33.2,53.5,,,,Normandie,28
+2016,19,Corrèze,30.1,50.8,,,,Nouvelle Aquitaine,75
+2016,21,Côte-d'Or,32.6,53.3,,,,Bourgogne et Franche-Comté,27
+2016,23,Creuse,33.4,50.9,,,,Nouvelle Aquitaine,75
+2016,26,Drôme,28.2,48.0,,,,Auvergne et Rhône-Alpes,84
+2016,27,Eure,30.4,49.8,,,,Normandie,28
+2016,29,Finistère,34.2,56.5,,,,Bretagne,53
+2016,30,Gard,28.6,49.8,,,,Occitanie,76
+2016,32,Gers,29.2,49.4,,,,Occitanie,76
+2016,35,Ille-et-Vilaine,30.4,50.5,,,,Bretagne,53
+2016,42,Loire,29.7,46.7,,,,Auvergne et Rhône-Alpes,84
+2016,43,Haute-Loire,29.7,44.2,,,,Auvergne et Rhône-Alpes,84
+2016,44,Loire-Atlantique,31.3,53.0,,,,Pays de la Loire,52
+2016,49,Maine-et-Loire,30.5,50.3,,,,Pays de la Loire,52
+2016,50,Manche,34.0,53.6,,,,Normandie,28
+2016,52,Haute-Marne,32.6,52.0,,,,Grand Est,44
+2016,57,Moselle,31.2,53.3,,,,Grand Est,44
+2016,61,Orne,31.0,49.7,,,,Normandie,28
+2016,62,Pas-de-Calais,38.1,54.8,,,,Hauts-de-France,32
+2016,63,Puy-de-Dôme,32.5,51.9,,,,Auvergne et Rhône-Alpes,84
+2016,69,Rhône,27.5,49.5,,,,Auvergne et Rhône-Alpes,84
+2016,70,Haute-Saône,29.9,48.1,,,,Bourgogne et Franche-Comté,27
+2016,73,Savoie,27.6,46.7,,,,Auvergne et Rhône-Alpes,84
+2016,76,Seine-Maritime,35.1,57.0,,,,Normandie,28
+2016,81,Tarn,27.0,49.7,,,,Occitanie,76
+2016,84,Vaucluse,25.3,45.8,,,,Provence-Alpes-Côte d'Azur,93
+2016,87,Haute-Vienne,32.1,52.0,,,,Nouvelle Aquitaine,75
+2016,89,Yonne,30.9,51.4,,,,Bourgogne et Franche-Comté,27
+2016,91,Essonne,25.0,52.1,,,,Île-de-France,11
+2016,93,Seine-Saint-Denis,23.0,44.5,,,,Île-de-France,11
+2016,973,Guyane,,,,,,Guyane,3
+2016,974,Réunion,,,,,,Réunion,4
+2016,2B,Haute-Corse,16.4,33.6,,,,Corse,94
+2017,02,Aisne,34.4,53.3,,,,Hauts-de-France,32
+2017,04,Alpes-de-Haute-Provence,26.2,45.0,,,,Provence-Alpes-Côte d'Azur,93
+2017,06,Alpes-Maritimes,23.8,46.2,,,,Provence-Alpes-Côte d'Azur,93
+2017,07,Ardèche,26.2,45.8,,,,Auvergne et Rhône-Alpes,84
+2017,08,Ardennes,35.3,56.7,,,,Grand Est,44
+2017,12,Aveyron,30.7,47.7,,,,Occitanie,76
+2017,28,Eure-et-Loir,27.6,50.5,,,,Centre-Val de Loire,24
+2017,31,Haute-Garonne,25.2,51.1,,,,Occitanie,76
+2017,37,Indre-et-Loire,33.1,53.1,,,,Centre-Val de Loire,24
+2017,40,Landes,29.3,51.8,,,,Nouvelle Aquitaine,75
+2017,41,Loir-et-Cher,31.2,50.9,,,,Centre-Val de Loire,24
+2017,45,Loiret,30.0,53.7,,,,Centre-Val de Loire,24
+2017,46,Lot,28.2,46.7,,,,Occitanie,76
+2017,48,Lozère,33.6,46.7,,,,Occitanie,76
+2017,50,Manche,34.3,53.3,,,,Normandie,28
+2017,61,Orne,31.1,49.2,,,,Normandie,28
+2017,64,Pyrénées-Atlantiques,27.6,51.5,,,,Nouvelle Aquitaine,75
+2017,72,Sarthe,31.0,50.0,,,,Pays de la Loire,52
+2017,78,Yvelines,24.3,49.9,,,,Île-de-France,11
+2017,81,Tarn,27.4,49.0,,,,Occitanie,76
+2017,83,Var,25.8,48.3,,,,Provence-Alpes-Côte d'Azur,93
+2017,85,Vendée,32.2,51.4,,,,Pays de la Loire,52
+2017,87,Haute-Vienne,33.2,51.5,,,,Nouvelle Aquitaine,75
+2017,88,Vosges,35.4,50.9,,,,Grand Est,44
+2017,89,Yonne,30.7,51.0,,,,Bourgogne et Franche-Comté,27
+2017,976,Mayotte,,,,,,Mayotte,6
+2018,2,Aisne,32.7,54.6,,,,Hauts-de-France,32
+2018,13,Bouches-du-Rhône,26.9,50.4,,,,Provence-Alpes-Côte d'Azur,93
+2018,18,Cher,30.3,52.3,,,,Centre-Val de Loire,24
+2018,21,Côte-d'Or,34.0,54.7,,,,Bourgogne et Franche-Comté,27
+2018,26,Drôme,29.2,50.1,,,,Auvergne et Rhône-Alpes,84
+2018,28,Eure-et-Loir,28.8,52.2,,,,Centre-Val de Loire,24
+2018,29,Finistère,34.3,58.3,,,,Bretagne,53
+2018,32,Gers,30.3,50.5,,,,Occitanie,76
+2018,33,Gironde,30.4,54.9,,,,Nouvelle Aquitaine,75
+2018,35,Ille-et-Vilaine,30.4,52.8,,,,Bretagne,53
+2018,37,Indre-et-Loire,34.6,54.5,,,,Centre-Val de Loire,24
+2018,38,Isère,30.9,52.4,,,,Auvergne et Rhône-Alpes,84
+2018,39,Jura,31.8,48.6,,,,Bourgogne et Franche-Comté,27
+2018,41,Loir-et-Cher,31.6,52.2,,,,Centre-Val de Loire,24
+2018,43,Haute-Loire,29.9,45.9,,,,Auvergne et Rhône-Alpes,84
+2018,45,Loiret,30.2,54.9,,,,Centre-Val de Loire,24
+2018,46,Lot,28.1,46.8,,,,Occitanie,76
+2018,48,Lozère,34.3,48.2,,,,Occitanie,76
+2018,53,Mayenne,30.5,49.4,,,,Pays de la Loire,52
+2018,54,Meurthe-et-Moselle,35.8,57.9,,,,Grand Est,44
+2018,56,Morbihan,29.8,52.8,,,,Bretagne,53
+2018,57,Moselle,32.2,54.2,,,,Grand Est,44
+2018,59,Nord,33.0,53.7,,,,Hauts-de-France,32
+2018,61,Orne,30.3,49.4,,,,Normandie,28
+2018,62,Pas-de-Calais,36.8,55.7,,,,Hauts-de-France,32
+2018,70,Haute-Saône,31.3,49.2,,,,Bourgogne et Franche-Comté,27
+2018,72,Sarthe,30.3,51.8,,,,Pays de la Loire,52
+2018,75,Paris,24.6,45.6,,,,Île-de-France,11
+2018,79,Deux-Sèvres,32.9,51.0,,,,Nouvelle Aquitaine,75
+2018,81,Tarn,28.3,50.3,,,,Occitanie,76
+2018,82,Tarn-et-Garonne,28.5,49.8,,,,Occitanie,76
+2018,85,Vendée,31.8,53.3,,,,Pays de la Loire,52
+2018,87,Haute-Vienne,33.6,52.2,,,,Nouvelle Aquitaine,75
+2018,89,Yonne,31.4,52.0,,,,Bourgogne et Franche-Comté,27
+2018,90,Territoire de Belfort,28.5,47.0,,,,Bourgogne et Franche-Comté,27
+2018,91,Essonne,25.9,53.2,,,,Île-de-France,11
+2018,93,Seine-Saint-Denis,23.0,44.0,,,,Île-de-France,11
+2018,971,Guadeloupe,12.4,20.5,,,,Guadeloupe,1
+2018,972,Martinique,8.6,14.2,,,,Martinique,2
+2018,974,Réunion,,,,,,Réunion,4
+2018,976,Mayotte,,,,,,Mayotte,6
+2018,2A,Corse-du-Sud,24.3,45.8,,,,Corse,94
+2019,01,Ain,28.8,49.6,,,,Auvergne et Rhône-Alpes,84
+2019,04,Alpes-de-Haute-Provence,28.9,47.3,,,,Provence-Alpes-Côte d'Azur,93
+2019,05,Hautes-Alpes,28.2,48.7,,,,Provence-Alpes-Côte d'Azur,93
+2019,09,Ariège,24.8,48.3,,,,Occitanie,76
+2019,12,Aveyron,33.3,50.9,,,,Occitanie,76
+2019,19,Corrèze,32.4,51.9,,,,Nouvelle Aquitaine,75
+2019,22,Côtes-d'Armor,31.9,54.6,,,,Bretagne,53
+2019,26,Drôme,29.2,49.7,,,,Auvergne et Rhône-Alpes,84
+2019,31,Haute-Garonne,29.2,53.9,,,,Occitanie,76
+2019,32,Gers,31.5,51.3,,,,Occitanie,76
+2019,39,Jura,32.9,49.2,,,,Bourgogne et Franche-Comté,27
+2019,43,Haute-Loire,30.9,46.7,,,,Auvergne et Rhône-Alpes,84
+2019,47,Lot-et-Garonne,27.6,48.6,,,,Nouvelle Aquitaine,75
+2019,51,Marne,35.5,56.1,,,,Grand Est,44
+2019,52,Haute-Marne,33.6,51.7,,,,Grand Est,44
+2019,53,Mayenne,32.2,50.4,,,,Pays de la Loire,52
+2019,55,Meuse,35.2,53.7,,,,Grand Est,44
+2019,58,Nièvre,33.2,53.4,,,,Bourgogne et Franche-Comté,27
+2019,59,Nord,35.1,53.1,,,,Hauts-de-France,32
+2019,60,Oise,29.9,50.0,,,,Hauts-de-France,32
+2019,63,Puy-de-Dôme,33.1,54.5,,,,Auvergne et Rhône-Alpes,84
+2019,64,Pyrénées-Atlantiques,30.6,54.1,,,,Nouvelle Aquitaine,75
+2019,65,Hautes-Pyrénées,31.1,51.3,,,,Occitanie,76
+2019,67,Bas-Rhin,31.9,52.5,,,,Grand Est,44
+2019,68,Haut-Rhin,28.5,46.8,,,,Grand Est,44
+2019,70,Haute-Saône,32.9,50.1,,,,Bourgogne et Franche-Comté,27
+2019,71,Saône-et-Loire,34.5,52.6,,,,Bourgogne et Franche-Comté,27
+2019,73,Savoie,30.5,49.5,,,,Auvergne et Rhône-Alpes,84
+2019,75,Paris,28.1,48.1,,,,Île-de-France,11
+2019,77,Seine-et-Marne,29.1,52.0,,,,Île-de-France,11
+2019,78,Yvelines,27.9,52.3,,,,Île-de-France,11
+2019,81,Tarn,30.2,51.4,,,,Occitanie,76
+2019,85,Vendée,32.8,53.9,,,,Pays de la Loire,52
+2019,86,Vienne,35.5,54.4,,,,Nouvelle Aquitaine,75
+2019,90,Territoire de Belfort,29.9,46.6,,,,Bourgogne et Franche-Comté,27
+2019,94,Val-de-Marne,28.1,51.5,,,,Île-de-France,11
+2019,976,Mayotte,,,,,,Mayotte,6
+2020,01,Ain,39.2,57.9,,,,Auvergne et Rhône-Alpes,84
+2020,03,Allier,42.1,61.8,,,,Auvergne et Rhône-Alpes,84
+2020,04,Alpes-de-Haute-Provence,34.8,53.3,,,,Provence-Alpes-Côte d'Azur,93
+2020,06,Alpes-Maritimes,32.2,54.8,,,,Provence-Alpes-Côte d'Azur,93
+2020,12,Aveyron,41.6,60.3,,,,Occitanie,76
+2020,16,Charente,41.0,60.9,,,,Nouvelle Aquitaine,75
+2020,18,Cher,41.0,61.4,,,,Centre-Val de Loire,24
+2020,22,Côtes-d'Armor,39.1,63.9,,,,Bretagne,53
+2020,24,Dordogne,37.1,56.6,,,,Nouvelle Aquitaine,75
+2020,26,Drôme,38.9,57.9,,,,Auvergne et Rhône-Alpes,84
+2020,27,Eure,41.3,60.5,,,,Normandie,28
+2020,32,Gers,40.2,59.9,,,,Occitanie,76
+2020,43,Haute-Loire,41.6,55.8,,,,Auvergne et Rhône-Alpes,84
+2020,45,Loiret,40.5,64.6,,,,Centre-Val de Loire,24
+2020,47,Lot-et-Garonne,35.0,57.3,,,,Nouvelle Aquitaine,75
+2020,49,Maine-et-Loire,39.5,63.7,,,,Pays de la Loire,52
+2020,53,Mayenne,39.6,60.1,,,,Pays de la Loire,52
+2020,55,Meuse,41.7,61.0,,,,Grand Est,44
+2020,62,Pas-de-Calais,46.9,62.6,,,,Hauts-de-France,32
+2020,63,Puy-de-Dôme,44.1,62.8,,,,Auvergne et Rhône-Alpes,84
+2020,64,Pyrénées-Atlantiques,38.9,63.1,,,,Nouvelle Aquitaine,75
+2020,68,Haut-Rhin,34.1,53.2,,,,Grand Est,44
+2020,69,Rhône,39.8,61.6,,,,Auvergne et Rhône-Alpes,84
+2020,77,Seine-et-Marne,36.1,60.1,,,,Île-de-France,11
+2020,78,Yvelines,35.7,59.9,,,,Île-de-France,11
+2020,80,Somme,45.3,64.7,,,,Hauts-de-France,32
+2020,83,Var,34.9,57.7,,,,Provence-Alpes-Côte d'Azur,93
+2020,84,Vaucluse,34.3,54.9,,,,Provence-Alpes-Côte d'Azur,93
+2020,87,Haute-Vienne,45.9,64.2,,,,Nouvelle Aquitaine,75
+2020,90,Territoire de Belfort,38.7,55.7,,,,Bourgogne et Franche-Comté,27
+2020,91,Essonne,35.4,61.3,,,,Île-de-France,11
+2020,95,Val-d'Oise,32.6,57.0,,,,Île-de-France,11
+2020,972,Martinique,12.2,18.8,,,,Martinique,2
+2020,973,Guyane,14.0,21.9,,,,Guyane,3
+2021,01,Ain,34.5,55.2,,,,Auvergne et Rhône-Alpes,84
+2021,04,Alpes-de-Haute-Provence,31.9,50.3,,,,Provence-Alpes-Côte d'Azur,93
+2021,08,Ardennes,41.3,62.0,,,,Grand Est,44
+2021,11,Aude,32.0,55.0,,,,Occitanie,76
+2021,12,Aveyron,36.4,56.3,,,,Occitanie,76
+2021,16,Charente,37.2,58.9,,,,Nouvelle Aquitaine,75
+2021,21,Côte-d'Or,39.3,60.9,,,,Bourgogne et Franche-Comté,27
+2021,27,Eure,37.1,57.9,,,,Normandie,28
+2021,28,Eure-et-Loir,35.4,59.6,,,,Centre-Val de Loire,24
+2021,29,Finistère,39.0,66.0,,,,Bretagne,53
+2021,33,Gironde,35.8,60.7,,,,Nouvelle Aquitaine,75
+2021,36,Indre,37.2,55.3,,,,Centre-Val de Loire,24
+2021,45,Loiret,37.0,61.9,,,,Centre-Val de Loire,24
+2021,46,Lot,33.6,53.4,,,,Occitanie,76
+2021,47,Lot-et-Garonne,31.0,54.1,,,,Nouvelle Aquitaine,75
+2021,48,Lozère,38.2,53.4,,,,Occitanie,76
+2021,53,Mayenne,35.2,57.6,,,,Pays de la Loire,52
+2021,59,Nord,39.0,59.4,,,,Hauts-de-France,32
+2021,60,Oise,35.1,57.0,,,,Hauts-de-France,32
+2021,63,Puy-de-Dôme,39.7,59.7,,,,Auvergne et Rhône-Alpes,84
+2021,64,Pyrénées-Atlantiques,33.9,59.3,,,,Nouvelle Aquitaine,75
+2021,67,Bas-Rhin,35.2,55.6,,,,Grand Est,44
+2021,68,Haut-Rhin,30.6,48.8,,,,Grand Est,44
+2021,69,Rhône,34.2,58.4,,,,Auvergne et Rhône-Alpes,84
+2021,72,Sarthe,35.3,59.9,,,,Pays de la Loire,52
+2021,73,Savoie,35.1,52.1,,,,Auvergne et Rhône-Alpes,84
+2021,77,Seine-et-Marne,31.6,58.0,,,,Île-de-France,11
+2021,81,Tarn,34.3,56.2,,,,Occitanie,76
+2021,84,Vaucluse,29.1,51.3,,,,Provence-Alpes-Côte d'Azur,93
+2021,85,Vendée,35.6,60.1,,,,Pays de la Loire,52
+2021,88,Vosges,39.3,57.3,,,,Grand Est,44
+2021,90,Territoire de Belfort,33.8,52.0,,,,Bourgogne et Franche-Comté,27
+2021,91,Essonne,30.9,59.2,,,,Île-de-France,11
+2021,93,Seine-Saint-Denis,25.8,48.0,,,,Île-de-France,11
+2021,94,Val-de-Marne,30.8,56.0,,,,Île-de-France,11
+2021,972,Martinique,8.1,13.7,,,,Martinique,2
+2021,974,Réunion,,,,,,Réunion,4
+2021,2A,Corse-du-Sud,27.6,48.1,,,,Corse,94
+2021,2B,Haute-Corse,30.0,50.7,,,,Corse,94
+2022,01,Ain,31.2,54.5,48.56931640285267,61.32251307173372,,Auvergne et Rhône-Alpes,84
+2022,03,Allier,34.8,57.1,50.78942441703242,63.29152646069134,,Auvergne et Rhône-Alpes,84
+2022,07,Ardèche,30.7,51.5,44.745986364636025,58.7462602842184,,Auvergne et Rhône-Alpes,84
+2022,08,Ardennes,37.4,61.1,56.274982365389135,66.8580394394323,,Grand Est,44
+2022,09,Ariège,28.6,50.6,43.48665888060372,58.08366308648954,,Occitanie,76
+2022,11,Aude,29.0,53.8,47.29079363917507,60.77830371692403,,Occitanie,76
+2022,24,Dordogne,31.7,53.9,47.9294992986522,60.2470812716277,,Nouvelle Aquitaine,75
+2022,25,Doubs,31.0,54.9,49.07532330777584,60.94687595348679,,Bourgogne et Franche-Comté,27
+2022,26,Drôme,30.8,51.7,45.18575247019251,58.4672435105068,,Auvergne et Rhône-Alpes,84
+2022,28,Eure-et-Loir,32.5,59.0,54.55285498313758,63.97163421728699,,Centre-Val de Loire,24
+2022,33,Gironde,33.0,59.8,54.81892812968076,65.09564454640532,,Nouvelle Aquitaine,75
+2022,34,Hérault,29.6,56.9,49.99792691691083,64.15890706453352,,Occitanie,76
+2022,37,Indre-et-Loire,38.3,62.4,57.2253859348199,67.63168086754455,,Centre-Val de Loire,24
+2022,46,Lot,31.2,52.7,45.64485848889518,59.95185468869679,,Occitanie,76
+2022,49,Maine-et-Loire,33.0,60.0,54.42768775706281,65.8276287734261,,Pays de la Loire,52
+2022,52,Haute-Marne,35.3,55.4,50.19158701419008,61.05705541089945,,Grand Est,44
+2022,56,Morbihan,31.1,59.7,53.77337238116693,66.40170071171087,,Bretagne,53
+2022,59,Nord,36.0,58.8,55.228558892863255,63.12802021468885,,Hauts-de-France,32
+2022,64,Pyrénées-Atlantiques,31.3,59.4,52.569354247843606,66.30528231524178,,Nouvelle Aquitaine,75
+2022,74,Haute-Savoie,28.4,50.8,44.3534906588004,57.74742199008973,,Auvergne et Rhône-Alpes,84
+2022,85,Vendée,33.5,59.1,54.35885028549308,64.26915887850467,,Pays de la Loire,52
+2022,88,Vosges,35.7,56.2,51.28608118986469,61.76824861479162,,Grand Est,44
+2022,90,Territoire de Belfort,29.9,50.7,46.797007606714025,55.14752260144369,,Bourgogne et Franche-Comté,27
+2022,92,Hauts-de-Seine,28.3,55.7,49.950293785981366,61.47230485371089,,Île-de-France,11
+2022,93,Seine-Saint-Denis,23.9,47.0,41.61833662388944,54.232086558503454,,Île-de-France,11
+2022,971,Guadeloupe,9.7,18.1,15.044062106588337,21.86236956808876,,Guadeloupe,1
+2022,972,Martinique,7.7,13.9,11.55463988325178,16.767758800091364,,Martinique,2
+2022,973,Guyane,11.1,17.9,16.536278570332875,20.64676616915423,,Guyane,3
+2022,974,Réunion,,,,,,Réunion,4
+2022,976,Mayotte,,,,,,Mayotte,6
+2023,04,Alpes-de-Haute-Provence,21.9,47.7,39.42857142857143,56.14677299864906,20.80364418029785,Provence-Alpes-Côte d'Azur,93
+2023,11,Aude,22.9,51.4,43.0653528906804,60.24849589433045,25.413028717041016,Occitanie,76
+2023,16,Charente,27.0,55.2,47.74789437278756,63.014987278985735,32.81769943237305,Nouvelle Aquitaine,75
+2023,17,Charente-Maritime,26.1,55.7,48.20737509530105,63.65716493954216,35.99357223510742,Nouvelle Aquitaine,75
+2023,19,Corrèze,26.0,54.1,46.36231841178733,61.84117854208241,26.063081741333008,Nouvelle Aquitaine,75
+2023,22,Côtes-d'Armor,25.7,57.6,50.43665606709986,65.35139964264444,35.043888092041016,Bretagne,53
+2023,25,Doubs,24.3,52.0,44.26286089012373,59.76441198410909,27.711435317993164,Bourgogne et Franche-Comté,27
+2023,30,Gard,24.0,52.9,44.67621984400508,61.863601193765895,29.166112899780277,Occitanie,76
+2023,31,Haute-Garonne,24.3,56.1,47.503636959121344,64.90359766316351,31.114091873168945,Occitanie,76
+2023,32,Gers,26.3,52.5,44.80266421030256,60.11917206773991,27.579973220825195,Occitanie,76
+2023,36,Indre,27.4,50.9,44.26512968299712,57.38743471677122,27.592988967895508,Centre-Val de Loire,24
+2023,37,Indre-et-Loire,31.3,60.2,53.154676360357314,67.257232563355,39.4228744506836,Centre-Val de Loire,24
+2023,38,Isère,27.6,55.2,48.01529334605294,62.73793055480421,35.01725769042969,Auvergne et Rhône-Alpes,84
+2023,42,Loire,25.1,52.3,44.15939914260183,60.268434315766406,27.59262466430664,Auvergne et Rhône-Alpes,84
+2023,45,Loiret,27.6,58.7,51.38004807057395,66.42465980750083,37.78501129150391,Centre-Val de Loire,24
+2023,46,Lot,23.6,50.0,41.53401913012092,58.56258471006264,25.31842613220215,Occitanie,76
+2023,51,Marne,30.0,59.1,53.45423417139597,65.5181647772918,34.854576110839844,Grand Est,44
+2023,52,Haute-Marne,26.7,52.6,45.2954898911353,60.38743844652977,25.19336700439453,Grand Est,44
+2023,59,Nord,29.4,56.6,51.403785428733975,63.0174413210873,32.22555160522461,Hauts-de-France,32
+2023,62,Pas-de-Calais,32.6,58.2,53.57258596891315,64.21206140872309,29.376480102539062,Hauts-de-France,32
+2023,64,Pyrénées-Atlantiques,25.1,57.1,48.57357947842111,65.52308910979461,30.961206436157227,Nouvelle Aquitaine,75
+2023,67,Bas-Rhin,25.0,51.1,43.932116057640826,59.58605366915253,29.62105941772461,Grand Est,44
+2023,68,Haut-Rhin,21.9,45.5,38.484746523104526,53.80277151144054,24.3640251159668,Grand Est,44
+2023,70,Haute-Saône,24.6,49.7,42.98695021749637,57.2875958894196,23.92245864868164,Bourgogne et Franche-Comté,27
+2023,73,Savoie,25.3,52.2,43.87223974763407,60.94259212835297,32.41401290893555,Auvergne et Rhône-Alpes,84
+2023,75,Paris,24.4,51.9,44.18613847682414,59.6648403178834,35.90007019042969,Île-de-France,11
+2023,77,Seine-et-Marne,22.7,54.8,47.75356470271724,63.3476336792471,30.707942962646484,Île-de-France,11
+2023,79,Deux-Sèvres,27.8,54.9,47.95172602624318,61.9129256884035,31.74591064453125,Nouvelle Aquitaine,75
+2023,81,Tarn,24.4,52.8,44.29260760470952,61.238884359416765,26.21235656738281,Occitanie,76
+2023,82,Tarn-et-Garonne,24.5,52.0,44.21217423335482,60.023592424918704,26.828516006469727,Occitanie,76
+2023,84,Vaucluse,21.1,48.8,40.15748031496063,57.832882829944765,26.058002471923828,Provence-Alpes-Côte d'Azur,93
+2023,86,Vienne,29.1,57.9,50.81307755071062,65.26891166422645,36.49369812011719,Nouvelle Aquitaine,75
+2023,90,Territoire de Belfort,23.1,48.1,42.39841046019741,54.27509293680297,27.556501388549805,Bourgogne et Franche-Comté,27
+2023,92,Hauts-de-Seine,23.7,54.0,46.40238208233187,61.6364519636344,33.28987503051758,Île-de-France,11
+2023,976,Mayotte,,,,,0.8374802470207214,Mayotte,6
+2023,2A,Corse-du-Sud,17.4,45.1,36.341338783852834,54.454162617427926,13.597992897033691,Corse,94
+2023,2B,Haute-Corse,18.5,46.8,37.25920052241243,56.57667179093006,13.472845077514648,Corse,94
+2024,01,Ain,24.7,51.2,44.2,58.5,,Auvergne et Rhône-Alpes,84
+2024,02,Aisne,28.2,55.2,49.6,61.4,,Hauts-de-France,32
+2024,04,Alpes-de-Haute-Provence,21.9,47.1,38.8,55.1,,Provence-Alpes-Côte d'Azur,93
+2024,10,Aube,25.4,53.1,46.6,59.4,,Grand Est,44
+2024,11,Aude,23.2,51.2,43.3,59.0,,Occitanie,76
+2024,12,Aveyron,25.2,52.4,43.6,60.3,,Occitanie,76
+2024,13,Bouches-du-Rhône,21.6,50.7,42.6,58.5,,Provence-Alpes-Côte d'Azur,93
+2024,14,Calvados,29.7,59.0,52.9,65.2,,Normandie,28
+2024,16,Charente,26.2,54.3,47.3,61.1,,Nouvelle Aquitaine,75
+2024,18,Cher,26.5,53.7,46.8,60.3,,Centre-Val de Loire,24
+2024,23,Creuse,27.6,51.3,45.0,57.5,,Nouvelle Aquitaine,75
+2024,26,Drôme,24.1,50.9,42.8,58.7,,Auvergne et Rhône-Alpes,84
+2024,28,Eure-et-Loir,25.5,55.1,48.8,61.3,,Centre-Val de Loire,24
+2024,29,Finistère,30.9,63.2,57.2,69.5,,Bretagne,53
+2024,30,Gard,24.0,52.8,45.2,60.5,,Occitanie,76
+2024,32,Gers,26.3,52.0,44.5,59.0,,Occitanie,76
+2024,36,Indre,25.8,50.5,43.6,56.8,,Centre-Val de Loire,24
+2024,37,Indre-et-Loire,30.9,59.5,53.1,65.5,,Centre-Val de Loire,24
+2024,40,Landes,25.2,56.5,49.5,63.6,,Nouvelle Aquitaine,75
+2024,41,Loir-et-Cher,27.9,55.5,49.0,61.6,,Centre-Val de Loire,24
+2024,42,Loire,25.1,51.9,44.0,59.1,,Auvergne et Rhône-Alpes,84
+2024,43,Haute-Loire,23.7,47.2,39.7,54.9,,Auvergne et Rhône-Alpes,84
+2024,44,Loire-Atlantique,28.2,60.4,53.4,67.5,,Pays de la Loire,52
+2024,45,Loiret,27.0,57.9,51.0,64.6,,Centre-Val de Loire,24
+2024,46,Lot,23.3,49.5,41.5,57.1,,Occitanie,76
+2024,47,Lot-et-Garonne,21.8,49.5,41.7,56.7,,Nouvelle Aquitaine,75
+2024,52,Haute-Marne,25.2,51.1,44.2,58.1,,Grand Est,44
+2024,58,Nièvre,26.4,53.6,46.8,60.1,,Bourgogne et Franche-Comté,27
+2024,60,Oise,24.5,52.8,47.2,59.1,,Hauts-de-France,32
+2024,65,Hautes-Pyrénées,24.9,52.6,44.4,60.3,,Occitanie,76
+2024,70,Haute-Saône,24.0,48.1,41.4,54.9,,Bourgogne et Franche-Comté,27
+2024,75,Paris,26.3,53.4,45.9,60.3,,Île-de-France,11
+2024,85,Vendée,27.3,57.5,50.5,64.8,,Pays de la Loire,52
+2024,86,Vienne,29.1,57.2,50.7,63.6,,Nouvelle Aquitaine,75
+2024,89,Yonne,24.3,52.9,45.9,60.0,,Bourgogne et Franche-Comté,27
+2024,972,Martinique,5.0,11.5,9.3,14.1,,Martinique,2
+2024,973,Guyane,7.6,14.8,13.3,17.6,,Guyane,3
+2024,976,Mayotte,,,,,,Mayotte,6
+2011,2,Aisne,,,,,,Hauts-de-France,32
+2011,5,Hautes-Alpes,,,,,,Provence-Alpes-Côte d'Azur,93
+2011,8,Ardennes,,,,,,Grand Est,44
+2011,9,Ariège,,,,,,Occitanie,76
+2011,11,Aude,,,,,,Occitanie,76
+2011,12,Aveyron,,,,,,Occitanie,76
+2011,15,Cantal,,,,,,Auvergne et Rhône-Alpes,84
+2011,16,Charente,,,,,,Nouvelle Aquitaine,75
+2011,18,Cher,,,,,,Centre-Val de Loire,24
+2011,26,Drôme,,,,,,Auvergne et Rhône-Alpes,84
+2011,30,Gard,,,,,,Occitanie,76
+2011,33,Gironde,,,,,,Nouvelle Aquitaine,75
+2011,37,Indre-et-Loire,,,,,,Centre-Val de Loire,24
+2011,40,Landes,,,,,,Nouvelle Aquitaine,75
+2011,44,Loire-Atlantique,,,,,,Pays de la Loire,52
+2011,46,Lot,,,,,,Occitanie,76
+2011,48,Lozère,,,,,,Occitanie,76
+2011,50,Manche,,,,,,Normandie,28
+2011,51,Marne,,,,,,Grand Est,44
+2011,54,Meurthe-et-Moselle,,,,,,Grand Est,44
+2011,59,Nord,,,,,,Hauts-de-France,32
+2011,60,Oise,,,,,,Hauts-de-France,32
+2011,61,Orne,,,,,,Normandie,28
+2011,67,Bas-Rhin,,,,,,Grand Est,44
+2011,71,Saône-et-Loire,,,,,,Bourgogne et Franche-Comté,27
+2011,75,Paris,,,,,,Île-de-France,11
+2011,76,Seine-Maritime,,,,,,Normandie,28
+2011,81,Tarn,,,,,,Occitanie,76
+2011,85,Vendée,,,,,,Pays de la Loire,52
+2011,90,Territoire de Belfort,,,,,,Bourgogne et Franche-Comté,27
+2011,91,Essonne,,,,,,Île-de-France,11
+2011,95,Val-d'Oise,,,,,,Île-de-France,11
+2011,972,Martinique,,,,,,Martinique,2
+2011,973,Guyane,,,,,,Guyane,3
+2011,976,Mayotte,,,,,,Mayotte,6
+2011,2A,Corse-du-Sud,,,,,,Corse,94
+2011,2B,Haute-Corse,,,,,,Corse,94
+2012,02,Aisne,,,,,,Hauts-de-France,32
+2012,04,Alpes-de-Haute-Provence,,,,,,Provence-Alpes-Côte d'Azur,93
+2012,09,Ariège,,,,,,Occitanie,76
+2012,12,Aveyron,,,,,,Occitanie,76
+2012,13,Bouches-du-Rhône,,,,,,Provence-Alpes-Côte d'Azur,93
+2012,16,Charente,,,,,,Nouvelle Aquitaine,75
+2012,25,Doubs,,,,,,Bourgogne et Franche-Comté,27
+2012,27,Eure,,,,,,Normandie,28
+2012,29,Finistère,,,,,,Bretagne,53
+2012,30,Gard,,,,,,Occitanie,76
+2012,32,Gers,,,,,,Occitanie,76
+2012,34,Hérault,,,,,,Occitanie,76
+2012,41,Loir-et-Cher,,,,,,Centre-Val de Loire,24
+2012,42,Loire,,,,,,Auvergne et Rhône-Alpes,84
+2012,43,Haute-Loire,,,,,,Auvergne et Rhône-Alpes,84
+2012,45,Loiret,,,,,,Centre-Val de Loire,24
+2012,47,Lot-et-Garonne,,,,,,Nouvelle Aquitaine,75
+2012,54,Meurthe-et-Moselle,,,,,,Grand Est,44
+2012,56,Morbihan,,,,,,Bretagne,53
+2012,60,Oise,,,,,,Hauts-de-France,32
+2012,64,Pyrénées-Atlantiques,,,,,,Nouvelle Aquitaine,75
+2012,67,Bas-Rhin,,,,,,Grand Est,44
+2012,69,Rhône,,,,,,Auvergne et Rhône-Alpes,84
+2012,72,Sarthe,,,,,,Pays de la Loire,52
+2012,73,Savoie,,,,,,Auvergne et Rhône-Alpes,84
+2012,77,Seine-et-Marne,,,,,,Île-de-France,11
+2012,78,Yvelines,,,,,,Île-de-France,11
+2012,84,Vaucluse,,,,,,Provence-Alpes-Côte d'Azur,93
+2012,85,Vendée,,,,,,Pays de la Loire,52
+2012,86,Vienne,,,,,,Nouvelle Aquitaine,75
+2012,87,Haute-Vienne,,,,,,Nouvelle Aquitaine,75
+2012,90,Territoire de Belfort,,,,,,Bourgogne et Franche-Comté,27
+2012,91,Essonne,,,,,,Île-de-France,11
+2012,92,Hauts-de-Seine,,,,,,Île-de-France,11
+2012,93,Seine-Saint-Denis,,,,,,Île-de-France,11
+2012,94,Val-de-Marne,,,,,,Île-de-France,11
+2012,976,Mayotte,,,,,,Mayotte,6
+2013,04,Alpes-de-Haute-Provence,,,,,,Provence-Alpes-Côte d'Azur,93
+2013,08,Ardennes,,,,,,Grand Est,44
+2013,09,Ariège,,,,,,Occitanie,76
+2013,10,Aube,,,,,,Grand Est,44
+2013,16,Charente,,,,,,Nouvelle Aquitaine,75
+2013,18,Cher,,,,,,Centre-Val de Loire,24
+2013,19,Corrèze,,,,,,Nouvelle Aquitaine,75
+2013,24,Dordogne,,,,,,Nouvelle Aquitaine,75
+2013,25,Doubs,,,,,,Bourgogne et Franche-Comté,27
+2013,27,Eure,,,,,,Normandie,28
+2013,29,Finistère,,,,,,Bretagne,53
+2013,33,Gironde,,,,,,Nouvelle Aquitaine,75
+2013,39,Jura,,,,,,Bourgogne et Franche-Comté,27
+2013,47,Lot-et-Garonne,,,,,,Nouvelle Aquitaine,75
+2013,51,Marne,,,,,,Grand Est,44
+2013,55,Meuse,,,,,,Grand Est,44
+2013,58,Nièvre,,,,,,Bourgogne et Franche-Comté,27
+2013,60,Oise,,,,,,Hauts-de-France,32
+2013,63,Puy-de-Dôme,,,,,,Auvergne et Rhône-Alpes,84
+2013,68,Haut-Rhin,,,,,,Grand Est,44
+2013,70,Haute-Saône,,,,,,Bourgogne et Franche-Comté,27
+2013,77,Seine-et-Marne,,,,,,Île-de-France,11
+2013,81,Tarn,,,,,,Occitanie,76
+2013,87,Haute-Vienne,,,,,,Nouvelle Aquitaine,75
+2013,89,Yonne,,,,,,Bourgogne et Franche-Comté,27
+2013,2A,Corse-du-Sud,,,,,,Corse,94
+2013,2B,Haute-Corse,,,,,,Corse,94
+2014,01,Ain,,,,,,Auvergne et Rhône-Alpes,84
+2014,03,Allier,,,,,,Auvergne et Rhône-Alpes,84
+2014,04,Alpes-de-Haute-Provence,,,,,,Provence-Alpes-Côte d'Azur,93
+2014,07,Ardèche,,,,,,Auvergne et Rhône-Alpes,84
+2014,08,Ardennes,,,,,,Grand Est,44
+2014,09,Ariège,,,,,,Occitanie,76
+2014,14,Calvados,,,,,,Normandie,28
+2014,19,Corrèze,,,,,,Nouvelle Aquitaine,75
+2014,25,Doubs,,,,,,Bourgogne et Franche-Comté,27
+2014,33,Gironde,,,,,,Nouvelle Aquitaine,75
+2014,34,Hérault,,,,,,Occitanie,76
+2014,40,Landes,,,,,,Nouvelle Aquitaine,75
+2014,43,Haute-Loire,,,,,,Auvergne et Rhône-Alpes,84
+2014,44,Loire-Atlantique,,,,,,Pays de la Loire,52
+2014,53,Mayenne,,,,,,Pays de la Loire,52
+2014,58,Nièvre,,,,,,Bourgogne et Franche-Comté,27
+2014,59,Nord,,,,,,Hauts-de-France,32
+2014,60,Oise,,,,,,Hauts-de-France,32
+2014,63,Puy-de-Dôme,,,,,,Auvergne et Rhône-Alpes,84
+2014,65,Hautes-Pyrénées,,,,,,Occitanie,76
+2014,69,Rhône,,,,,,Auvergne et Rhône-Alpes,84
+2014,70,Haute-Saône,,,,,,Bourgogne et Franche-Comté,27
+2014,72,Sarthe,,,,,,Pays de la Loire,52
+2014,74,Haute-Savoie,,,,,,Auvergne et Rhône-Alpes,84
+2014,76,Seine-Maritime,,,,,,Normandie,28
+2014,80,Somme,,,,,,Hauts-de-France,32
+2014,92,Hauts-de-Seine,,,,,,Île-de-France,11
+2014,95,Val-d'Oise,,,,,,Île-de-France,11
+2014,972,Martinique,,,,,,Martinique,2
+2014,976,Mayotte,,,,,,Mayotte,6
+2014,2A,Corse-du-Sud,,,,,,Corse,94
+2014,2B,Haute-Corse,,,,,,Corse,94
+2015,01,Ain,,,,,,Auvergne et Rhône-Alpes,84
+2015,02,Aisne,,,,,,Hauts-de-France,32
+2015,06,Alpes-Maritimes,,,,,,Provence-Alpes-Côte d'Azur,93
+2015,08,Ardennes,,,,,,Grand Est,44
+2015,10,Aube,,,,,,Grand Est,44
+2015,13,Bouches-du-Rhône,,,,,,Provence-Alpes-Côte d'Azur,93
+2015,14,Calvados,,,,,,Normandie,28
+2015,16,Charente,,,,,,Nouvelle Aquitaine,75
+2015,18,Cher,,,,,,Centre-Val de Loire,24
+2015,21,Côte-d'Or,,,,,,Bourgogne et Franche-Comté,27
+2015,22,Côtes-d'Armor,,,,,,Bretagne,53
+2015,24,Dordogne,,,,,,Nouvelle Aquitaine,75
+2015,28,Eure-et-Loir,,,,,,Centre-Val de Loire,24
+2015,32,Gers,,,,,,Occitanie,76
+2015,33,Gironde,,,,,,Nouvelle Aquitaine,75
+2015,36,Indre,,,,,,Centre-Val de Loire,24
+2015,37,Indre-et-Loire,,,,,,Centre-Val de Loire,24
+2015,41,Loir-et-Cher,,,,,,Centre-Val de Loire,24
+2015,48,Lozère,,,,,,Occitanie,76
+2015,51,Marne,,,,,,Grand Est,44
+2015,54,Meurthe-et-Moselle,,,,,,Grand Est,44
+2015,56,Morbihan,,,,,,Bretagne,53
+2015,57,Moselle,,,,,,Grand Est,44
+2015,58,Nièvre,,,,,,Bourgogne et Franche-Comté,27
+2015,59,Nord,,,,,,Hauts-de-France,32
+2015,60,Oise,,,,,,Hauts-de-France,32
+2015,64,Pyrénées-Atlantiques,,,,,,Nouvelle Aquitaine,75
+2015,68,Haut-Rhin,,,,,,Grand Est,44
+2015,72,Sarthe,,,,,,Pays de la Loire,52
+2015,76,Seine-Maritime,,,,,,Normandie,28
+2015,86,Vienne,,,,,,Nouvelle Aquitaine,75
+2015,88,Vosges,,,,,,Grand Est,44
+2015,972,Martinique,,,,,,Martinique,2
+2015,974,Réunion,,,,,,Réunion,4
+2015,976,Mayotte,,,,,,Mayotte,6
+2016,04,Alpes-de-Haute-Provence,25.9,45.4,,,,Provence-Alpes-Côte d'Azur,93
+2016,18,Cher,30.7,51.7,,,,Centre-Val de Loire,24
+2016,22,Côtes-d'Armor,30.3,50.8,,,,Bretagne,53
+2016,28,Eure-et-Loir,28.0,51.3,,,,Centre-Val de Loire,24
+2016,31,Haute-Garonne,24.9,51.3,,,,Occitanie,76
+2016,33,Gironde,28.6,53.2,,,,Nouvelle Aquitaine,75
+2016,41,Loir-et-Cher,31.4,51.6,,,,Centre-Val de Loire,24
+2016,45,Loiret,30.3,54.2,,,,Centre-Val de Loire,24
+2016,47,Lot-et-Garonne,25.4,45.9,,,,Nouvelle Aquitaine,75
+2016,55,Meuse,32.9,52.2,,,,Grand Est,44
+2016,56,Morbihan,29.6,51.1,,,,Bretagne,53
+2016,58,Nièvre,31.9,52.0,,,,Bourgogne et Franche-Comté,27
+2016,59,Nord,34.7,53.4,,,,Hauts-de-France,32
+2016,60,Oise,27.6,49.1,,,,Hauts-de-France,32
+2016,67,Bas-Rhin,29.5,50.4,,,,Grand Est,44
+2016,68,Haut-Rhin,27.1,45.4,,,,Grand Est,44
+2016,71,Saône-et-Loire,32.0,51.1,,,,Bourgogne et Franche-Comté,27
+2016,75,Paris,22.9,43.9,,,,Île-de-France,11
+2016,78,Yvelines,24.5,50.2,,,,Île-de-France,11
+2016,79,Deux-Sèvres,31.6,50.4,,,,Nouvelle Aquitaine,75
+2016,82,Tarn-et-Garonne,26.7,49.2,,,,Occitanie,76
+2016,83,Var,26.0,48.9,,,,Provence-Alpes-Côte d'Azur,93
+2016,88,Vosges,34.3,50.8,,,,Grand Est,44
+2016,972,Martinique,,,,,,Martinique,2
+2016,976,Mayotte,,,,,,Mayotte,6
+2017,10,Aube,30.8,50.8,,,,Grand Est,44
+2017,22,Côtes-d'Armor,31.2,51.0,,,,Bretagne,53
+2017,25,Doubs,29.8,49.5,,,,Bourgogne et Franche-Comté,27
+2017,26,Drôme,28.8,47.9,,,,Auvergne et Rhône-Alpes,84
+2017,27,Eure,30.0,48.7,,,,Normandie,28
+2017,32,Gers,29.3,49.4,,,,Occitanie,76
+2017,34,Hérault,27.6,50.4,,,,Occitanie,76
+2017,38,Isère,31.0,50.0,,,,Auvergne et Rhône-Alpes,84
+2017,39,Jura,31.0,46.8,,,,Bourgogne et Franche-Comté,27
+2017,42,Loire,29.9,47.1,,,,Auvergne et Rhône-Alpes,84
+2017,47,Lot-et-Garonne,26.1,46.0,,,,Nouvelle Aquitaine,75
+2017,51,Marne,34.3,54.9,,,,Grand Est,44
+2017,52,Haute-Marne,32.8,50.9,,,,Grand Est,44
+2017,54,Meurthe-et-Moselle,35.3,56.8,,,,Grand Est,44
+2017,55,Meuse,33.4,51.8,,,,Grand Est,44
+2017,56,Morbihan,29.9,50.9,,,,Bretagne,53
+2017,57,Moselle,31.5,52.9,,,,Grand Est,44
+2017,58,Nièvre,32.0,51.2,,,,Bourgogne et Franche-Comté,27
+2017,59,Nord,33.9,52.0,,,,Hauts-de-France,32
+2017,60,Oise,27.4,48.2,,,,Hauts-de-France,32
+2017,66,Pyrénées-Orientales,25.1,47.7,,,,Occitanie,76
+2017,68,Haut-Rhin,27.1,45.3,,,,Grand Est,44
+2017,70,Haute-Saône,30.8,47.9,,,,Bourgogne et Franche-Comté,27
+2017,75,Paris,23.4,43.7,,,,Île-de-France,11
+2017,76,Seine-Maritime,34.9,56.2,,,,Normandie,28
+2017,77,Seine-et-Marne,26.2,49.4,,,,Île-de-France,11
+2017,80,Somme,34.5,53.6,,,,Hauts-de-France,32
+2017,82,Tarn-et-Garonne,26.9,48.4,,,,Occitanie,76
+2017,86,Vienne,31.6,51.8,,,,Nouvelle Aquitaine,75
+2017,90,Territoire de Belfort,28.0,45.3,,,,Bourgogne et Franche-Comté,27
+2017,93,Seine-Saint-Denis,22.8,43.3,,,,Île-de-France,11
+2017,95,Val-d'Oise,23.0,47.3,,,,Île-de-France,11
+2017,972,Martinique,13.4,20.5,,,,Martinique,2
+2018,1,Ain,28.2,48.5,,,,Auvergne et Rhône-Alpes,84
+2018,9,Ariège,23.3,46.9,,,,Occitanie,76
+2018,11,Aude,27.2,49.0,,,,Occitanie,76
+2018,14,Calvados,32.6,54.6,,,,Normandie,28
+2018,16,Charente,31.7,51.8,,,,Nouvelle Aquitaine,75
+2018,22,Côtes-d'Armor,30.1,52.7,,,,Bretagne,53
+2018,23,Creuse,35.0,50.6,,,,Nouvelle Aquitaine,75
+2018,24,Dordogne,29.2,49.5,,,,Nouvelle Aquitaine,75
+2018,36,Indre,30.5,48.4,,,,Centre-Val de Loire,24
+2018,40,Landes,30.3,53.7,,,,Nouvelle Aquitaine,75
+2018,44,Loire-Atlantique,31.2,55.2,,,,Pays de la Loire,52
+2018,51,Marne,34.4,56.0,,,,Grand Est,44
+2018,55,Meuse,33.7,53.1,,,,Grand Est,44
+2018,58,Nièvre,32.8,52.4,,,,Bourgogne et Franche-Comté,27
+2018,63,Puy-de-Dôme,32.2,53.7,,,,Auvergne et Rhône-Alpes,84
+2018,65,Hautes-Pyrénées,28.3,49.2,,,,Occitanie,76
+2018,66,Pyrénées-Orientales,26.8,48.9,,,,Occitanie,76
+2018,67,Bas-Rhin,30.6,51.1,,,,Grand Est,44
+2018,68,Haut-Rhin,27.4,46.3,,,,Grand Est,44
+2018,69,Rhône,28.3,52.4,,,,Auvergne et Rhône-Alpes,84
+2018,71,Saône-et-Loire,33.0,52.4,,,,Bourgogne et Franche-Comté,27
+2018,73,Savoie,28.8,48.6,,,,Auvergne et Rhône-Alpes,84
+2018,76,Seine-Maritime,33.2,57.3,,,,Normandie,28
+2018,77,Seine-et-Marne,26.6,51.1,,,,Île-de-France,11
+2018,84,Vaucluse,26.4,47.3,,,,Provence-Alpes-Côte d'Azur,93
+2018,88,Vosges,35.7,52.0,,,,Grand Est,44
+2018,94,Val-de-Marne,25.8,50.5,,,,Île-de-France,11
+2018,95,Val-d'Oise,24.2,48.9,,,,Île-de-France,11
+2019,03,Allier,31.4,52.9,,,,Auvergne et Rhône-Alpes,84
+2019,07,Ardèche,27.1,47.9,,,,Auvergne et Rhône-Alpes,84
+2019,08,Ardennes,34.7,56.1,,,,Grand Est,44
+2019,10,Aube,32.1,52.4,,,,Grand Est,44
+2019,11,Aude,28.8,50.6,,,,Occitanie,76
+2019,16,Charente,33.3,52.3,,,,Nouvelle Aquitaine,75
+2019,17,Charente-Maritime,32.6,52.6,,,,Nouvelle Aquitaine,75
+2019,18,Cher,32.4,52.8,,,,Centre-Val de Loire,24
+2019,21,Côte-d'Or,35.9,56.2,,,,Bourgogne et Franche-Comté,27
+2019,23,Creuse,36.7,52.2,,,,Nouvelle Aquitaine,75
+2019,28,Eure-et-Loir,30.4,54.0,,,,Centre-Val de Loire,24
+2019,29,Finistère,36.5,60.1,,,,Bretagne,53
+2019,33,Gironde,32.5,55.7,,,,Nouvelle Aquitaine,75
+2019,34,Hérault,30.6,53.0,,,,Occitanie,76
+2019,35,Ille-et-Vilaine,32.4,54.5,,,,Bretagne,53
+2019,36,Indre,31.4,49.7,,,,Centre-Val de Loire,24
+2019,37,Indre-et-Loire,36.3,55.9,,,,Centre-Val de Loire,24
+2019,41,Loir-et-Cher,33.8,53.3,,,,Centre-Val de Loire,24
+2019,42,Loire,30.1,49.8,,,,Auvergne et Rhône-Alpes,84
+2019,44,Loire-Atlantique,33.1,55.7,,,,Pays de la Loire,52
+2019,45,Loiret,33.0,57.0,,,,Centre-Val de Loire,24
+2019,46,Lot,31.1,48.8,,,,Occitanie,76
+2019,48,Lozère,34.6,49.8,,,,Occitanie,76
+2019,49,Maine-et-Loire,32.3,54.4,,,,Pays de la Loire,52
+2019,50,Manche,36.6,55.5,,,,Normandie,28
+2019,54,Meurthe-et-Moselle,37.6,57.7,,,,Grand Est,44
+2019,62,Pas-de-Calais,38.0,54.1,,,,Hauts-de-France,32
+2019,69,Rhône,29.4,53.5,,,,Auvergne et Rhône-Alpes,84
+2019,72,Sarthe,31.7,52.7,,,,Pays de la Loire,52
+2019,76,Seine-Maritime,37.3,57.3,,,,Normandie,28
+2019,79,Deux-Sèvres,33.7,51.7,,,,Nouvelle Aquitaine,75
+2019,82,Tarn-et-Garonne,30.0,50.2,,,,Occitanie,76
+2019,83,Var,28.3,50.3,,,,Provence-Alpes-Côte d'Azur,93
+2019,87,Haute-Vienne,36.0,54.0,,,,Nouvelle Aquitaine,75
+2019,88,Vosges,37.0,53.0,,,,Grand Est,44
+2019,89,Yonne,32.6,52.8,,,,Bourgogne et Franche-Comté,27
+2019,972,Martinique,11.0,17.0,,,,Martinique,2
+2019,973,Guyane,14.0,21.3,,,,Guyane,3
+2019,2B,Haute-Corse,27.4,47.3,,,,Corse,94
+2020,02,Aisne,42.3,61.6,,,,Hauts-de-France,32
+2020,08,Ardennes,42.8,63.0,,,,Grand Est,44
+2020,09,Ariège,33.8,55.2,,,,Occitanie,76
+2020,10,Aube,39.5,60.4,,,,Grand Est,44
+2020,13,Bouches-du-Rhône,35.0,57.3,,,,Provence-Alpes-Côte d'Azur,93
+2020,14,Calvados,44.4,64.5,,,,Normandie,28
+2020,19,Corrèze,41.7,60.9,,,,Nouvelle Aquitaine,75
+2020,23,Creuse,45.6,60.9,,,,Nouvelle Aquitaine,75
+2020,30,Gard,37.5,59.5,,,,Occitanie,76
+2020,31,Haute-Garonne,38.7,63.5,,,,Occitanie,76
+2020,33,Gironde,41.3,64.5,,,,Nouvelle Aquitaine,75
+2020,34,Hérault,37.3,60.7,,,,Occitanie,76
+2020,35,Ille-et-Vilaine,40.4,64.3,,,,Bretagne,53
+2020,39,Jura,40.6,57.2,,,,Bourgogne et Franche-Comté,27
+2020,40,Landes,38.3,61.5,,,,Nouvelle Aquitaine,75
+2020,41,Loir-et-Cher,42.0,61.8,,,,Centre-Val de Loire,24
+2020,44,Loire-Atlantique,40.2,64.9,,,,Pays de la Loire,52
+2020,46,Lot,37.2,56.3,,,,Occitanie,76
+2020,50,Manche,45.4,64.0,,,,Normandie,28
+2020,52,Haute-Marne,41.6,59.2,,,,Grand Est,44
+2020,56,Morbihan,39.2,63.8,,,,Bretagne,53
+2020,57,Moselle,39.6,59.4,,,,Grand Est,44
+2020,59,Nord,42.8,61.1,,,,Hauts-de-France,32
+2020,60,Oise,38.0,58.7,,,,Hauts-de-France,32
+2020,61,Orne,41.4,59.3,,,,Normandie,28
+2020,66,Pyrénées-Orientales,33.5,55.9,,,,Occitanie,76
+2020,70,Haute-Saône,39.6,57.7,,,,Bourgogne et Franche-Comté,27
+2020,73,Savoie,38.2,56.8,,,,Auvergne et Rhône-Alpes,84
+2020,76,Seine-Maritime,45.2,65.9,,,,Normandie,28
+2020,86,Vienne,43.1,63.3,,,,Nouvelle Aquitaine,75
+2020,88,Vosges,42.8,60.2,,,,Grand Est,44
+2020,89,Yonne,39.2,61.0,,,,Bourgogne et Franche-Comté,27
+2020,92,Hauts-de-Seine,35.5,58.3,,,,Île-de-France,11
+2020,93,Seine-Saint-Denis,30.2,50.3,,,,Île-de-France,11
+2020,94,Val-de-Marne,36.0,58.3,,,,Île-de-France,11
+2020,974,Réunion,,,,,,Réunion,4
+2020,976,Mayotte,,,,,,Mayotte,6
+2020,2A,Corse-du-Sud,33.0,53.9,,,,Corse,94
+2020,2B,Haute-Corse,36.0,56.0,,,,Corse,94
+2021,02,Aisne,40.2,58.8,,,,Hauts-de-France,32
+2021,03,Allier,38.0,57.8,,,,Auvergne et Rhône-Alpes,84
+2021,09,Ariège,31.4,51.5,,,,Occitanie,76
+2021,13,Bouches-du-Rhône,29.0,52.8,,,,Provence-Alpes-Côte d'Azur,93
+2021,14,Calvados,39.3,61.8,,,,Normandie,28
+2021,17,Charente-Maritime,36.2,58.4,,,,Nouvelle Aquitaine,75
+2021,19,Corrèze,36.8,57.3,,,,Nouvelle Aquitaine,75
+2021,23,Creuse,40.1,55.6,,,,Nouvelle Aquitaine,75
+2021,25,Doubs,35.2,56.1,,,,Bourgogne et Franche-Comté,27
+2021,32,Gers,35.5,55.7,,,,Occitanie,76
+2021,34,Hérault,32.6,57.4,,,,Occitanie,76
+2021,35,Ille-et-Vilaine,34.9,61.1,,,,Bretagne,53
+2021,37,Indre-et-Loire,40.9,62.7,,,,Centre-Val de Loire,24
+2021,39,Jura,35.9,53.4,,,,Bourgogne et Franche-Comté,27
+2021,43,Haute-Loire,35.9,50.4,,,,Auvergne et Rhône-Alpes,84
+2021,44,Loire-Atlantique,34.7,61.6,,,,Pays de la Loire,52
+2021,50,Manche,40.5,60.6,,,,Normandie,28
+2021,51,Marne,40.5,62.8,,,,Grand Est,44
+2021,52,Haute-Marne,38.2,55.9,,,,Grand Est,44
+2021,56,Morbihan,33.7,59.9,,,,Bretagne,53
+2021,58,Nièvre,38.0,58.8,,,,Bourgogne et Franche-Comté,27
+2021,61,Orne,36.6,56.7,,,,Normandie,28
+2021,65,Hautes-Pyrénées,34.4,55.3,,,,Occitanie,76
+2021,70,Haute-Saône,36.3,54.8,,,,Bourgogne et Franche-Comté,27
+2021,71,Saône-et-Loire,38.1,57.5,,,,Bourgogne et Franche-Comté,27
+2021,78,Yvelines,30.7,58.0,,,,Île-de-France,11
+2021,83,Var,29.8,53.3,,,,Provence-Alpes-Côte d'Azur,93
+2021,86,Vienne,38.9,60.8,,,,Nouvelle Aquitaine,75
+2021,89,Yonne,36.2,58.1,,,,Bourgogne et Franche-Comté,27
+2021,971,Guadeloupe,10.6,18.7,,,,Guadeloupe,1
+2021,976,Mayotte,,,,,,Mayotte,6
+2022,04,Alpes-de-Haute-Provence,29.9,50.0,42.81119058704025,57.28382238379641,,Provence-Alpes-Côte d'Azur,93
+2022,05,Hautes-Alpes,30.8,52.3,45.79794144099131,59.353212485251525,,Provence-Alpes-Côte d'Azur,93
+2022,06,Alpes-Maritimes,25.9,50.4,42.66514134920412,57.183557183557184,,Provence-Alpes-Côte d'Azur,93
+2022,12,Aveyron,33.8,55.4,47.99632915264607,62.49147754943022,,Occitanie,76
+2022,13,Bouches-du-Rhône,27.0,52.8,46.50939106711902,59.00942620467588,,Provence-Alpes-Côte d'Azur,93
+2022,15,Cantal,39.5,59.7,53.32099051145568,66.15784499054821,,Auvergne et Rhône-Alpes,84
+2022,16,Charente,33.9,57.5,51.64137875815685,63.70622856416988,,Nouvelle Aquitaine,75
+2022,19,Corrèze,34.0,56.9,50.53869609409032,63.193796641791046,,Nouvelle Aquitaine,75
+2022,21,Côte-d'Or,36.2,60.0,54.23780783010038,66.05225360782437,,Bourgogne et Franche-Comté,27
+2022,27,Eure,34.4,57.1,53.16511167656206,61.81603126714207,,Normandie,28
+2022,35,Ille-et-Vilaine,32.4,60.8,55.72337115249889,66.22176492648543,,Bretagne,53
+2022,38,Isère,33.8,57.4,52.09358455869149,63.07356485622034,,Auvergne et Rhône-Alpes,84
+2022,40,Landes,31.7,58.5,52.95455268263206,64.57521771498814,,Nouvelle Aquitaine,75
+2022,42,Loire,31.1,54.7,48.13441534652916,61.09761435762749,,Auvergne et Rhône-Alpes,84
+2022,45,Loiret,33.7,60.9,55.92187301183357,66.19970394294174,,Centre-Val de Loire,24
+2022,48,Lozère,35.8,53.3,47.46878327364244,59.47692307692307,,Occitanie,76
+2022,50,Manche,37.8,59.0,54.9367889657553,63.16645660521147,,Normandie,28
+2022,53,Mayenne,31.9,56.6,50.74444715645594,62.47549087293917,,Pays de la Loire,52
+2022,55,Meuse,35.7,57.7,53.53221378976264,62.54767353165522,,Grand Est,44
+2022,57,Moselle,33.1,56.4,50.63748079877112,63.67658933089304,,Grand Est,44
+2022,58,Nièvre,34.5,57.6,52.03277754927706,63.39696298011711,,Bourgogne et Franche-Comté,27
+2022,62,Pas-de-Calais,39.8,60.5,57.44053550285453,64.69418279022403,,Hauts-de-France,32
+2022,65,Hautes-Pyrénées,31.3,55.3,48.284904750422,62.24051431489771,,Occitanie,76
+2022,66,Pyrénées-Orientales,27.2,52.9,46.42084914441183,59.55307262569832,,Occitanie,76
+2022,69,Rhône,31.9,58.5,52.071016433065175,64.60662367347865,,Auvergne et Rhône-Alpes,84
+2022,70,Haute-Saône,32.6,53.2,48.13204813204813,59.06064553480967,,Bourgogne et Franche-Comté,27
+2022,77,Seine-et-Marne,29.0,57.2,52.01348815114205,63.71071386844257,,Île-de-France,11
+2022,82,Tarn-et-Garonne,30.3,54.6,48.56043156746273,60.993875543426526,,Occitanie,76
+2022,84,Vaucluse,27.0,51.1,43.87243063382172,58.73426081463296,,Provence-Alpes-Côte d'Azur,93
+2022,87,Haute-Vienne,37.2,60.5,55.78315380540349,65.39645646013008,,Nouvelle Aquitaine,75
+2022,89,Yonne,32.9,57.1,51.37640944326991,63.53241095958221,,Bourgogne et Franche-Comté,27
+2022,94,Val-de-Marne,28.6,55.8,49.915234517834,62.27321188522691,,Île-de-France,11
+2022,2A,Corse-du-Sud,25.7,47.0,39.602728132623085,54.785979986378166,,Corse,94
+2023,01,Ain,24.8,51.8,44.541575606202514,59.940791005555006,30.112510681152344,Auvergne et Rhône-Alpes,84
+2023,05,Hautes-Alpes,23.4,50.6,42.30672374716696,59.3024494142705,26.76955223083496,Provence-Alpes-Côte d'Azur,93
+2023,06,Alpes-Maritimes,20.4,48.5,39.18871916756036,56.76420736192394,22.272823333740234,Provence-Alpes-Côte d'Azur,93
+2023,07,Ardèche,23.6,49.3,40.8089627369312,58.34870630528357,25.46624183654785,Auvergne et Rhône-Alpes,84
+2023,13,Bouches-du-Rhône,21.5,50.4,41.96085417176958,58.79164539542317,21.364940643310547,Provence-Alpes-Côte d'Azur,93
+2023,14,Calvados,30.1,59.6,52.80635469774217,67.10513053119645,37.52721405029297,Normandie,28
+2023,26,Drôme,24.1,51.2,42.68123700951062,59.94364453710339,30.07513236999512,Auvergne et Rhône-Alpes,84
+2023,27,Eure,27.6,54.6,49.029982363315696,61.29164251372456,32.271995544433594,Normandie,28
+2023,34,Hérault,23.8,54.3,45.78588179124598,63.0310480873692,30.181612014770508,Occitanie,76
+2023,43,Haute-Loire,24.7,47.8,40.10277695424449,55.93816371296264,21.13329315185547,Auvergne et Rhône-Alpes,84
+2023,47,Lot-et-Garonne,21.9,50.4,42.25391863140984,58.35834995276582,25.51300048828125,Nouvelle Aquitaine,75
+2023,55,Meuse,27.7,54.9,48.79328006556033,62.070134650779806,28.148643493652344,Grand Est,44
+2023,56,Morbihan,25.6,57.5,49.70353488118696,66.26029519693387,35.88771057128906,Bretagne,53
+2023,58,Nièvre,27.3,55.2,48.08442303280569,62.55192281924159,28.755544662475582,Bourgogne et Franche-Comté,27
+2023,63,Puy-de-Dôme,29.1,56.7,49.4164349938638,64.26233817441019,31.053754806518555,Auvergne et Rhône-Alpes,84
+2023,65,Hautes-Pyrénées,25.1,52.6,43.95684992207316,61.16701417218143,25.22793960571289,Occitanie,76
+2023,66,Pyrénées-Orientales,21.5,50.3,42.17199558985667,58.448672746874905,27.137434005737305,Occitanie,76
+2023,71,Saône-et-Loire,27.7,54.0,46.27802452062445,61.78793954971808,30.82034683227539,Bourgogne et Franche-Comté,27
+2023,72,Sarthe,26.8,56.7,49.84612653133693,63.64939953396666,33.99382019042969,Pays de la Loire,52
+2023,78,Yvelines,23.3,55.7,47.866860801903776,63.53710062823414,35.46152114868164,Île-de-France,11
+2023,83,Var,21.5,50.3,41.30189767246802,58.99075330577208,24.584680557250977,Provence-Alpes-Côte d'Azur,93
+2023,87,Haute-Vienne,29.7,57.9,50.99927212228346,64.82749952868724,31.56698989868164,Nouvelle Aquitaine,75
+2023,93,Seine-Saint-Denis,19.5,44.4,37.79991978546544,53.3208586282786,19.541297912597656,Île-de-France,11
+2023,94,Val-de-Marne,23.0,53.5,45.8434193531832,61.971670958945616,30.104915618896484,Île-de-France,11
+2023,95,Val-d'Oise,20.2,51.0,43.83709686593482,59.913864502236216,27.339038848876957,Île-de-France,11
+2023,971,Guadeloupe,6.9,14.9,11.85400917090098,18.692672641012127,2.328806161880493,Guadeloupe,1
+2023,974,Réunion,,,,,1.8616770505905151,Réunion,4
+2024,05,Hautes-Alpes,23.4,50.3,42.5,58.1,,Provence-Alpes-Côte d'Azur,93
+2024,06,Alpes-Maritimes,20.5,48.7,39.6,56.3,,Provence-Alpes-Côte d'Azur,93
+2024,2A,Corse-du-Sud,18.3,45.5,37.1,54.0,,Corse,94
+2024,2B,Haute-Corse,18.8,46.5,37.3,55.7,,Corse,94
+2024,24,Dordogne,24.5,50.5,43.3,57.6,,Nouvelle Aquitaine,75
+2024,27,Eure,26.7,53.9,48.5,59.8,,Normandie,28
+2024,35,Ille-et-Vilaine,28.3,59.2,52.5,65.8,,Bretagne,53
+2024,50,Manche,30.3,57.7,51.2,64.0,,Normandie,28
+2024,51,Marne,29.4,58.6,53.5,64.0,,Grand Est,44
+2024,54,Meurthe-et-Moselle,29.9,58.9,52.8,65.1,,Grand Est,44
+2024,59,Nord,29.2,55.8,51.2,61.0,,Hauts-de-France,32
+2024,63,Puy-de-Dôme,28.9,56.7,49.6,63.6,,Auvergne et Rhône-Alpes,84
+2024,67,Bas-Rhin,24.5,50.7,43.6,58.6,,Grand Est,44
+2024,68,Haut-Rhin,21.2,44.9,38.1,52.4,,Grand Est,44
+2024,69,Rhône,26.2,56.2,48.6,63.1,,Auvergne et Rhône-Alpes,84
+2024,72,Sarthe,26.2,56.2,49.2,63.0,,Pays de la Loire,52
+2024,74,Haute-Savoie,22.2,48.2,40.6,55.8,,Auvergne et Rhône-Alpes,84
+2024,76,Seine-Maritime,31.0,60.4,54.9,66.0,,Normandie,28
+2024,77,Seine-et-Marne,22.4,54.2,47.4,61.8,,Île-de-France,11
+2024,82,Tarn-et-Garonne,24.2,51.8,44.7,58.8,,Occitanie,76
+2024,84,Vaucluse,21.3,48.7,40.5,56.8,,Provence-Alpes-Côte d'Azur,93
+2024,88,Vosges,27.6,52.2,46.3,58.3,,Grand Est,44
+2024,90,Territoire de Belfort,22.9,47.3,42.1,52.8,,Bourgogne et Franche-Comté,27
+2024,92,Hauts-de-Seine,24.6,54.4,47.4,61.1,,Île-de-France,11
+2024,94,Val-de-Marne,23.5,53.6,46.5,61.0,,Île-de-France,11
+2024,971,Guadeloupe,7.2,15.1,12.5,18.2,,Guadeloupe,1
+2011,1,Ain,,,,,,Auvergne et Rhône-Alpes,84
+2011,4,Alpes-de-Haute-Provence,,,,,,Provence-Alpes-Côte d'Azur,93
+2011,10,Aube,,,,,,Grand Est,44
+2011,13,Bouches-du-Rhône,,,,,,Provence-Alpes-Côte d'Azur,93
+2011,14,Calvados,,,,,,Normandie,28
+2011,19,Corrèze,,,,,,Nouvelle Aquitaine,75
+2011,21,Côte-d'Or,,,,,,Bourgogne et Franche-Comté,27
+2011,22,Côtes-d'Armor,,,,,,Bretagne,53
+2011,24,Dordogne,,,,,,Nouvelle Aquitaine,75
+2011,27,Eure,,,,,,Normandie,28
+2011,28,Eure-et-Loir,,,,,,Centre-Val de Loire,24
+2011,31,Haute-Garonne,,,,,,Occitanie,76
+2011,34,Hérault,,,,,,Occitanie,76
+2011,43,Haute-Loire,,,,,,Auvergne et Rhône-Alpes,84
+2011,52,Haute-Marne,,,,,,Grand Est,44
+2011,53,Mayenne,,,,,,Pays de la Loire,52
+2011,55,Meuse,,,,,,Grand Est,44
+2011,57,Moselle,,,,,,Grand Est,44
+2011,63,Puy-de-Dôme,,,,,,Auvergne et Rhône-Alpes,84
+2011,65,Hautes-Pyrénées,,,,,,Occitanie,76
+2011,70,Haute-Saône,,,,,,Bourgogne et Franche-Comté,27
+2011,72,Sarthe,,,,,,Pays de la Loire,52
+2011,74,Haute-Savoie,,,,,,Auvergne et Rhône-Alpes,84
+2011,78,Yvelines,,,,,,Île-de-France,11
+2011,79,Deux-Sèvres,,,,,,Nouvelle Aquitaine,75
+2011,80,Somme,,,,,,Hauts-de-France,32
+2011,82,Tarn-et-Garonne,,,,,,Occitanie,76
+2011,83,Var,,,,,,Provence-Alpes-Côte d'Azur,93
+2011,86,Vienne,,,,,,Nouvelle Aquitaine,75
+2011,88,Vosges,,,,,,Grand Est,44
+2011,89,Yonne,,,,,,Bourgogne et Franche-Comté,27
+2011,92,Hauts-de-Seine,,,,,,Île-de-France,11
+2011,971,Guadeloupe,,,,,,Guadeloupe,1
+2011,974,Réunion,,,,,,Réunion,4
+2012,01,Ain,,,,,,Auvergne et Rhône-Alpes,84
+2012,06,Alpes-Maritimes,,,,,,Provence-Alpes-Côte d'Azur,93
+2012,14,Calvados,,,,,,Normandie,28
+2012,17,Charente-Maritime,,,,,,Nouvelle Aquitaine,75
+2012,26,Drôme,,,,,,Auvergne et Rhône-Alpes,84
+2012,33,Gironde,,,,,,Nouvelle Aquitaine,75
+2012,35,Ille-et-Vilaine,,,,,,Bretagne,53
+2012,39,Jura,,,,,,Bourgogne et Franche-Comté,27
+2012,44,Loire-Atlantique,,,,,,Pays de la Loire,52
+2012,51,Marne,,,,,,Grand Est,44
+2012,55,Meuse,,,,,,Grand Est,44
+2012,58,Nièvre,,,,,,Bourgogne et Franche-Comté,27
+2012,62,Pas-de-Calais,,,,,,Hauts-de-France,32
+2012,66,Pyrénées-Orientales,,,,,,Occitanie,76
+2012,68,Haut-Rhin,,,,,,Grand Est,44
+2012,71,Saône-et-Loire,,,,,,Bourgogne et Franche-Comté,27
+2012,79,Deux-Sèvres,,,,,,Nouvelle Aquitaine,75
+2012,81,Tarn,,,,,,Occitanie,76
+2012,971,Guadeloupe,,,,,,Guadeloupe,1
+2012,973,Guyane,,,,,,Guyane,3
+2012,974,Réunion,,,,,,Réunion,4
+2012,2A,Corse-du-Sud,,,,,,Corse,94
+2013,01,Ain,,,,,,Auvergne et Rhône-Alpes,84
+2013,02,Aisne,,,,,,Hauts-de-France,32
+2013,05,Hautes-Alpes,,,,,,Provence-Alpes-Côte d'Azur,93
+2013,11,Aude,,,,,,Occitanie,76
+2013,12,Aveyron,,,,,,Occitanie,76
+2013,13,Bouches-du-Rhône,,,,,,Provence-Alpes-Côte d'Azur,93
+2013,17,Charente-Maritime,,,,,,Nouvelle Aquitaine,75
+2013,21,Côte-d'Or,,,,,,Bourgogne et Franche-Comté,27
+2013,31,Haute-Garonne,,,,,,Occitanie,76
+2013,32,Gers,,,,,,Occitanie,76
+2013,34,Hérault,,,,,,Occitanie,76
+2013,35,Ille-et-Vilaine,,,,,,Bretagne,53
+2013,36,Indre,,,,,,Centre-Val de Loire,24
+2013,38,Isère,,,,,,Auvergne et Rhône-Alpes,84
+2013,41,Loir-et-Cher,,,,,,Centre-Val de Loire,24
+2013,42,Loire,,,,,,Auvergne et Rhône-Alpes,84
+2013,48,Lozère,,,,,,Occitanie,76
+2013,52,Haute-Marne,,,,,,Grand Est,44
+2013,56,Morbihan,,,,,,Bretagne,53
+2013,59,Nord,,,,,,Hauts-de-France,32
+2013,62,Pas-de-Calais,,,,,,Hauts-de-France,32
+2013,65,Hautes-Pyrénées,,,,,,Occitanie,76
+2013,72,Sarthe,,,,,,Pays de la Loire,52
+2013,73,Savoie,,,,,,Auvergne et Rhône-Alpes,84
+2013,74,Haute-Savoie,,,,,,Auvergne et Rhône-Alpes,84
+2013,76,Seine-Maritime,,,,,,Normandie,28
+2013,79,Deux-Sèvres,,,,,,Nouvelle Aquitaine,75
+2013,80,Somme,,,,,,Hauts-de-France,32
+2013,82,Tarn-et-Garonne,,,,,,Occitanie,76
+2013,83,Var,,,,,,Provence-Alpes-Côte d'Azur,93
+2013,84,Vaucluse,,,,,,Provence-Alpes-Côte d'Azur,93
+2013,86,Vienne,,,,,,Nouvelle Aquitaine,75
+2013,91,Essonne,,,,,,Île-de-France,11
+2013,92,Hauts-de-Seine,,,,,,Île-de-France,11
+2013,93,Seine-Saint-Denis,,,,,,Île-de-France,11
+2013,94,Val-de-Marne,,,,,,Île-de-France,11
+2013,95,Val-d'Oise,,,,,,Île-de-France,11
+2013,971,Guadeloupe,,,,,,Guadeloupe,1
+2013,973,Guyane,,,,,,Guyane,3
+2013,976,Mayotte,,,,,,Mayotte,6
+2014,02,Aisne,,,,,,Hauts-de-France,32
+2014,05,Hautes-Alpes,,,,,,Provence-Alpes-Côte d'Azur,93
+2014,06,Alpes-Maritimes,,,,,,Provence-Alpes-Côte d'Azur,93
+2014,15,Cantal,,,,,,Auvergne et Rhône-Alpes,84
+2014,24,Dordogne,,,,,,Nouvelle Aquitaine,75
+2014,26,Drôme,,,,,,Auvergne et Rhône-Alpes,84
+2014,27,Eure,,,,,,Normandie,28
+2014,29,Finistère,,,,,,Bretagne,53
+2014,30,Gard,,,,,,Occitanie,76
+2014,32,Gers,,,,,,Occitanie,76
+2014,36,Indre,,,,,,Centre-Val de Loire,24
+2014,37,Indre-et-Loire,,,,,,Centre-Val de Loire,24
+2014,41,Loir-et-Cher,,,,,,Centre-Val de Loire,24
+2014,46,Lot,,,,,,Occitanie,76
+2014,48,Lozère,,,,,,Occitanie,76
+2014,49,Maine-et-Loire,,,,,,Pays de la Loire,52
+2014,51,Marne,,,,,,Grand Est,44
+2014,52,Haute-Marne,,,,,,Grand Est,44
+2014,54,Meurthe-et-Moselle,,,,,,Grand Est,44
+2014,55,Meuse,,,,,,Grand Est,44
+2014,56,Morbihan,,,,,,Bretagne,53
+2014,57,Moselle,,,,,,Grand Est,44
+2014,61,Orne,,,,,,Normandie,28
+2014,66,Pyrénées-Orientales,,,,,,Occitanie,76
+2014,68,Haut-Rhin,,,,,,Grand Est,44
+2014,71,Saône-et-Loire,,,,,,Bourgogne et Franche-Comté,27
+2014,73,Savoie,,,,,,Auvergne et Rhône-Alpes,84
+2014,77,Seine-et-Marne,,,,,,Île-de-France,11
+2014,79,Deux-Sèvres,,,,,,Nouvelle Aquitaine,75
+2014,82,Tarn-et-Garonne,,,,,,Occitanie,76
+2014,83,Var,,,,,,Provence-Alpes-Côte d'Azur,93
+2014,84,Vaucluse,,,,,,Provence-Alpes-Côte d'Azur,93
+2014,85,Vendée,,,,,,Pays de la Loire,52
+2014,86,Vienne,,,,,,Nouvelle Aquitaine,75
+2014,87,Haute-Vienne,,,,,,Nouvelle Aquitaine,75
+2014,88,Vosges,,,,,,Grand Est,44
+2014,89,Yonne,,,,,,Bourgogne et Franche-Comté,27
+2014,93,Seine-Saint-Denis,,,,,,Île-de-France,11
+2014,94,Val-de-Marne,,,,,,Île-de-France,11
+2015,03,Allier,,,,,,Auvergne et Rhône-Alpes,84
+2015,07,Ardèche,,,,,,Auvergne et Rhône-Alpes,84
+2015,09,Ariège,,,,,,Occitanie,76
+2015,12,Aveyron,,,,,,Occitanie,76
+2015,15,Cantal,,,,,,Auvergne et Rhône-Alpes,84
+2015,17,Charente-Maritime,,,,,,Nouvelle Aquitaine,75
+2015,19,Corrèze,,,,,,Nouvelle Aquitaine,75
+2015,25,Doubs,,,,,,Bourgogne et Franche-Comté,27
+2015,27,Eure,,,,,,Normandie,28
+2015,30,Gard,,,,,,Occitanie,76
+2015,31,Haute-Garonne,,,,,,Occitanie,76
+2015,35,Ille-et-Vilaine,,,,,,Bretagne,53
+2015,39,Jura,,,,,,Bourgogne et Franche-Comté,27
+2015,43,Haute-Loire,,,,,,Auvergne et Rhône-Alpes,84
+2015,44,Loire-Atlantique,,,,,,Pays de la Loire,52
+2015,47,Lot-et-Garonne,,,,,,Nouvelle Aquitaine,75
+2015,49,Maine-et-Loire,,,,,,Pays de la Loire,52
+2015,52,Haute-Marne,,,,,,Grand Est,44
+2015,53,Mayenne,,,,,,Pays de la Loire,52
+2015,65,Hautes-Pyrénées,,,,,,Occitanie,76
+2015,66,Pyrénées-Orientales,,,,,,Occitanie,76
+2015,67,Bas-Rhin,,,,,,Grand Est,44
+2015,69,Rhône,,,,,,Auvergne et Rhône-Alpes,84
+2015,70,Haute-Saône,,,,,,Bourgogne et Franche-Comté,27
+2015,71,Saône-et-Loire,,,,,,Bourgogne et Franche-Comté,27
+2015,73,Savoie,,,,,,Auvergne et Rhône-Alpes,84
+2015,75,Paris,,,,,,Île-de-France,11
+2015,78,Yvelines,,,,,,Île-de-France,11
+2015,79,Deux-Sèvres,,,,,,Nouvelle Aquitaine,75
+2015,81,Tarn,,,,,,Occitanie,76
+2015,82,Tarn-et-Garonne,,,,,,Occitanie,76
+2015,85,Vendée,,,,,,Pays de la Loire,52
+2015,89,Yonne,,,,,,Bourgogne et Franche-Comté,27
+2015,90,Territoire de Belfort,,,,,,Bourgogne et Franche-Comté,27
+2015,91,Essonne,,,,,,Île-de-France,11
+2015,92,Hauts-de-Seine,,,,,,Île-de-France,11
+2015,93,Seine-Saint-Denis,,,,,,Île-de-France,11
+2015,95,Val-d'Oise,,,,,,Île-de-France,11
+2015,973,Guyane,,,,,,Guyane,3
+2015,2B,Haute-Corse,,,,,,Corse,94
+2016,06,Alpes-Maritimes,23.9,46.7,,,,Provence-Alpes-Côte d'Azur,93
+2016,08,Ardennes,36.2,57.7,,,,Grand Est,44
+2016,10,Aube,30.8,51.3,,,,Grand Est,44
+2016,13,Bouches-du-Rhône,25.8,49.1,,,,Provence-Alpes-Côte d'Azur,93
+2016,15,Cantal,35.5,53.2,,,,Auvergne et Rhône-Alpes,84
+2016,16,Charente,30.3,51.4,,,,Nouvelle Aquitaine,75
+2016,17,Charente-Maritime,29.4,51.3,,,,Nouvelle Aquitaine,75
+2016,24,Dordogne,28.0,48.3,,,,Nouvelle Aquitaine,75
+2016,25,Doubs,29.4,49.5,,,,Bourgogne et Franche-Comté,27
+2016,34,Hérault,26.9,50.5,,,,Occitanie,76
+2016,36,Indre,29.8,48.8,,,,Centre-Val de Loire,24
+2016,37,Indre-et-Loire,32.7,53.7,,,,Centre-Val de Loire,24
+2016,38,Isère,29.8,49.8,,,,Auvergne et Rhône-Alpes,84
+2016,39,Jura,30.0,46.7,,,,Bourgogne et Franche-Comté,27
+2016,40,Landes,28.8,52.4,,,,Nouvelle Aquitaine,75
+2016,46,Lot,27.7,47.3,,,,Occitanie,76
+2016,48,Lozère,33.0,48.6,,,,Occitanie,76
+2016,51,Marne,34.6,55.6,,,,Grand Est,44
+2016,53,Mayenne,30.2,47.8,,,,Pays de la Loire,52
+2016,54,Meurthe-et-Moselle,34.9,57.3,,,,Grand Est,44
+2016,64,Pyrénées-Atlantiques,26.8,51.9,,,,Nouvelle Aquitaine,75
+2016,65,Hautes-Pyrénées,27.6,49.2,,,,Occitanie,76
+2016,66,Pyrénées-Orientales,24.8,48.2,,,,Occitanie,76
+2016,72,Sarthe,31.0,50.1,,,,Pays de la Loire,52
+2016,74,Haute-Savoie,24.9,43.4,,,,Auvergne et Rhône-Alpes,84
+2016,77,Seine-et-Marne,26.1,49.9,,,,Île-de-France,11
+2016,80,Somme,35.2,54.3,,,,Hauts-de-France,32
+2016,85,Vendée,31.2,51.7,,,,Pays de la Loire,52
+2016,86,Vienne,30.5,52.4,,,,Nouvelle Aquitaine,75
+2016,90,Territoire de Belfort,27.8,45.2,,,,Bourgogne et Franche-Comté,27
+2016,92,Hauts-de-Seine,22.3,47.5,,,,Île-de-France,11
+2016,94,Val-de-Marne,25.3,49.7,,,,Île-de-France,11
+2016,95,Val-d'Oise,23.2,47.8,,,,Île-de-France,11
+2016,971,Guadeloupe,9.3,16.2,,,,Guadeloupe,1
+2016,2A,Corse-du-Sud,16.4,33.6,,,,Corse,94
+2017,01,Ain,28.7,46.6,,,,Auvergne et Rhône-Alpes,84
+2017,03,Allier,31.7,51.3,,,,Auvergne et Rhône-Alpes,84
+2017,05,Hautes-Alpes,26.0,45.9,,,,Provence-Alpes-Côte d'Azur,93
+2017,09,Ariège,21.7,45.1,,,,Occitanie,76
+2017,11,Aude,27.0,48.9,,,,Occitanie,76
+2017,13,Bouches-du-Rhône,25.9,48.9,,,,Provence-Alpes-Côte d'Azur,93
+2017,14,Calvados,33.4,53.1,,,,Normandie,28
+2017,15,Cantal,35.5,52.5,,,,Auvergne et Rhône-Alpes,84
+2017,16,Charente,30.9,50.3,,,,Nouvelle Aquitaine,75
+2017,17,Charente-Maritime,29.8,50.5,,,,Nouvelle Aquitaine,75
+2017,18,Cher,29.9,51.1,,,,Centre-Val de Loire,24
+2017,19,Corrèze,30.6,50.0,,,,Nouvelle Aquitaine,75
+2017,21,Côte-d'Or,33.2,53.3,,,,Bourgogne et Franche-Comté,27
+2017,23,Creuse,33.8,49.4,,,,Nouvelle Aquitaine,75
+2017,24,Dordogne,28.7,48.1,,,,Nouvelle Aquitaine,75
+2017,29,Finistère,34.6,56.5,,,,Bretagne,53
+2017,30,Gard,28.5,49.5,,,,Occitanie,76
+2017,33,Gironde,29.1,52.8,,,,Nouvelle Aquitaine,75
+2017,35,Ille-et-Vilaine,30.9,50.5,,,,Bretagne,53
+2017,36,Indre,29.4,47.6,,,,Centre-Val de Loire,24
+2017,43,Haute-Loire,30.2,44.2,,,,Auvergne et Rhône-Alpes,84
+2017,44,Loire-Atlantique,32.1,53.1,,,,Pays de la Loire,52
+2017,49,Maine-et-Loire,31.3,50.8,,,,Pays de la Loire,52
+2017,53,Mayenne,31.0,47.5,,,,Pays de la Loire,52
+2017,62,Pas-de-Calais,37.5,53.7,,,,Hauts-de-France,32
+2017,63,Puy-de-Dôme,33.4,52.3,,,,Auvergne et Rhône-Alpes,84
+2017,65,Hautes-Pyrénées,27.1,48.9,,,,Occitanie,76
+2017,67,Bas-Rhin,30.2,50.2,,,,Grand Est,44
+2017,69,Rhône,28.2,50.1,,,,Auvergne et Rhône-Alpes,84
+2017,71,Saône-et-Loire,32.3,50.9,,,,Bourgogne et Franche-Comté,27
+2017,73,Savoie,28.5,46.4,,,,Auvergne et Rhône-Alpes,84
+2017,74,Haute-Savoie,25.7,43.6,,,,Auvergne et Rhône-Alpes,84
+2017,79,Deux-Sèvres,32.0,49.7,,,,Nouvelle Aquitaine,75
+2017,84,Vaucluse,25.6,45.6,,,,Provence-Alpes-Côte d'Azur,93
+2017,91,Essonne,24.9,51.7,,,,Île-de-France,11
+2017,92,Hauts-de-Seine,22.7,47.4,,,,Île-de-France,11
+2017,94,Val-de-Marne,25.0,49.1,,,,Île-de-France,11
+2017,971,Guadeloupe,8.8,15.3,,,,Guadeloupe,1
+2017,973,Guyane,,,,,,Guyane,3
+2017,974,Réunion,,,,,,Réunion,4
+2017,2A,Corse-du-Sud,15.9,33.6,,,,Corse,94
+2017,2B,Haute-Corse,15.9,33.6,,,,Corse,94
+2018,3,Allier,30.7,52.3,,,,Auvergne et Rhône-Alpes,84
+2018,4,Alpes-de-Haute-Provence,27.4,46.5,,,,Provence-Alpes-Côte d'Azur,93
+2018,5,Hautes-Alpes,26.8,47.8,,,,Provence-Alpes-Côte d'Azur,93
+2018,6,Alpes-Maritimes,25.4,48.0,,,,Provence-Alpes-Côte d'Azur,93
+2018,7,Ardèche,26.5,47.3,,,,Auvergne et Rhône-Alpes,84
+2018,8,Ardennes,35.6,57.3,,,,Grand Est,44
+2018,10,Aube,31.0,52.0,,,,Grand Est,44
+2018,12,Aveyron,32.5,49.8,,,,Occitanie,76
+2018,15,Cantal,34.9,53.3,,,,Auvergne et Rhône-Alpes,84
+2018,17,Charente-Maritime,30.9,52.2,,,,Nouvelle Aquitaine,75
+2018,19,Corrèze,31.2,51.3,,,,Nouvelle Aquitaine,75
+2018,25,Doubs,30.3,49.9,,,,Bourgogne et Franche-Comté,27
+2018,27,Eure,28.6,49.3,,,,Normandie,28
+2018,30,Gard,29.0,50.8,,,,Occitanie,76
+2018,31,Haute-Garonne,26.6,51.7,,,,Occitanie,76
+2018,34,Hérault,28.6,51.5,,,,Occitanie,76
+2018,42,Loire,28.9,47.9,,,,Auvergne et Rhône-Alpes,84
+2018,47,Lot-et-Garonne,26.1,47.0,,,,Nouvelle Aquitaine,75
+2018,49,Maine-et-Loire,30.6,52.6,,,,Pays de la Loire,52
+2018,50,Manche,33.3,54.2,,,,Normandie,28
+2018,52,Haute-Marne,32.9,51.9,,,,Grand Est,44
+2018,60,Oise,27.4,50.0,,,,Hauts-de-France,32
+2018,64,Pyrénées-Atlantiques,28.4,52.6,,,,Nouvelle Aquitaine,75
+2018,74,Haute-Savoie,25.6,44.9,,,,Auvergne et Rhône-Alpes,84
+2018,78,Yvelines,25.5,51.9,,,,Île-de-France,11
+2018,80,Somme,33.7,55.2,,,,Hauts-de-France,32
+2018,83,Var,27.0,49.7,,,,Provence-Alpes-Côte d'Azur,93
+2018,86,Vienne,33.1,53.9,,,,Nouvelle Aquitaine,75
+2018,92,Hauts-de-Seine,24.1,48.3,,,,Île-de-France,11
+2018,973,Guyane,12.7,18.9,,,,Guyane,3
+2018,2B,Haute-Corse,26.5,48.6,,,,Corse,94
+2019,02,Aisne,34.3,54.1,,,,Hauts-de-France,32
+2019,06,Alpes-Maritimes,26.3,48.8,,,,Provence-Alpes-Côte d'Azur,93
+2019,13,Bouches-du-Rhône,28.1,50.9,,,,Provence-Alpes-Côte d'Azur,93
+2019,14,Calvados,35.2,55.7,,,,Normandie,28
+2019,15,Cantal,35.2,54.8,,,,Auvergne et Rhône-Alpes,84
+2019,24,Dordogne,30.4,50.0,,,,Nouvelle Aquitaine,75
+2019,25,Doubs,32.3,51.9,,,,Bourgogne et Franche-Comté,27
+2019,27,Eure,33.0,51.3,,,,Normandie,28
+2019,30,Gard,30.4,51.1,,,,Occitanie,76
+2019,38,Isère,32.0,52.5,,,,Auvergne et Rhône-Alpes,84
+2019,40,Landes,31.1,54.0,,,,Nouvelle Aquitaine,75
+2019,56,Morbihan,31.5,54.3,,,,Bretagne,53
+2019,57,Moselle,34.0,55.3,,,,Grand Est,44
+2019,61,Orne,33.0,50.8,,,,Normandie,28
+2019,66,Pyrénées-Orientales,27.7,49.1,,,,Occitanie,76
+2019,74,Haute-Savoie,27.5,47.1,,,,Auvergne et Rhône-Alpes,84
+2019,80,Somme,35.2,54.8,,,,Hauts-de-France,32
+2019,84,Vaucluse,27.5,47.7,,,,Provence-Alpes-Côte d'Azur,93
+2019,91,Essonne,28.5,54.3,,,,Île-de-France,11
+2019,92,Hauts-de-Seine,27.3,50.7,,,,Île-de-France,11
+2019,93,Seine-Saint-Denis,25.1,45.1,,,,Île-de-France,11
+2019,95,Val-d'Oise,26.1,50.0,,,,Île-de-France,11
+2019,971,Guadeloupe,14.8,22.9,,,,Guadeloupe,1
+2019,974,Réunion,,,,,,Réunion,4
+2019,2A,Corse-du-Sud,25.8,46.3,,,,Corse,94
+2020,05,Hautes-Alpes,36.0,55.0,,,,Provence-Alpes-Côte d'Azur,93
+2020,07,Ardèche,36.9,55.0,,,,Auvergne et Rhône-Alpes,84
+2020,11,Aude,36.5,58.6,,,,Occitanie,76
+2020,15,Cantal,47.8,64.1,,,,Auvergne et Rhône-Alpes,84
+2020,17,Charente-Maritime,39.4,60.9,,,,Nouvelle Aquitaine,75
+2020,21,Côte-d'Or,44.1,64.5,,,,Bourgogne et Franche-Comté,27
+2020,25,Doubs,40.5,60.6,,,,Bourgogne et Franche-Comté,27
+2020,28,Eure-et-Loir,38.9,61.7,,,,Centre-Val de Loire,24
+2020,29,Finistère,44.4,69.3,,,,Bretagne,53
+2020,36,Indre,40.2,58.4,,,,Centre-Val de Loire,24
+2020,37,Indre-et-Loire,45.2,65.2,,,,Centre-Val de Loire,24
+2020,38,Isère,41.9,60.5,,,,Auvergne et Rhône-Alpes,84
+2020,42,Loire,38.9,58.3,,,,Auvergne et Rhône-Alpes,84
+2020,48,Lozère,38.8,54.5,,,,Occitanie,76
+2020,51,Marne,44.2,64.3,,,,Grand Est,44
+2020,54,Meurthe-et-Moselle,45.0,65.0,,,,Grand Est,44
+2020,58,Nièvre,41.6,60.8,,,,Bourgogne et Franche-Comté,27
+2020,65,Hautes-Pyrénées,38.6,60.0,,,,Occitanie,76
+2020,67,Bas-Rhin,38.8,59.6,,,,Grand Est,44
+2020,71,Saône-et-Loire,42.4,60.1,,,,Bourgogne et Franche-Comté,27
+2020,72,Sarthe,38.8,62.1,,,,Pays de la Loire,52
+2020,74,Haute-Savoie,35.6,55.0,,,,Auvergne et Rhône-Alpes,84
+2020,75,Paris,35.3,55.8,,,,Île-de-France,11
+2020,79,Deux-Sèvres,41.1,60.1,,,,Nouvelle Aquitaine,75
+2020,81,Tarn,38.4,59.6,,,,Occitanie,76
+2020,82,Tarn-et-Garonne,39.4,60.3,,,,Occitanie,76
+2020,85,Vendée,39.1,62.6,,,,Pays de la Loire,52
+2020,971,Guadeloupe,17.2,27.5,,,,Guadeloupe,1
+2021,05,Hautes-Alpes,32.7,52.6,,,,Provence-Alpes-Côte d'Azur,93
+2021,06,Alpes-Maritimes,28.1,51.5,,,,Provence-Alpes-Côte d'Azur,93
+2021,07,Ardèche,33.3,51.7,,,,Auvergne et Rhône-Alpes,84
+2021,10,Aube,36.6,57.4,,,,Grand Est,44
+2021,15,Cantal,42.6,60.0,,,,Auvergne et Rhône-Alpes,84
+2021,18,Cher,36.6,58.3,,,,Centre-Val de Loire,24
+2021,22,Côtes-d'Armor,34.2,60.8,,,,Bretagne,53
+2021,24,Dordogne,35.0,54.9,,,,Nouvelle Aquitaine,75
+2021,26,Drôme,33.3,53.6,,,,Auvergne et Rhône-Alpes,84
+2021,30,Gard,33.0,56.0,,,,Occitanie,76
+2021,31,Haute-Garonne,32.9,58.9,,,,Occitanie,76
+2021,38,Isère,36.7,57.2,,,,Auvergne et Rhône-Alpes,84
+2021,40,Landes,34.6,59.3,,,,Nouvelle Aquitaine,75
+2021,41,Loir-et-Cher,38.7,59.7,,,,Centre-Val de Loire,24
+2021,42,Loire,34.5,55.3,,,,Auvergne et Rhône-Alpes,84
+2021,49,Maine-et-Loire,35.6,60.6,,,,Pays de la Loire,52
+2021,54,Meurthe-et-Moselle,40.9,60.5,,,,Grand Est,44
+2021,55,Meuse,38.7,59.1,,,,Grand Est,44
+2021,57,Moselle,36.7,57.3,,,,Grand Est,44
+2021,62,Pas-de-Calais,43.5,61.0,,,,Hauts-de-France,32
+2021,66,Pyrénées-Orientales,29.8,53.9,,,,Occitanie,76
+2021,74,Haute-Savoie,30.9,51.3,,,,Auvergne et Rhône-Alpes,84
+2021,75,Paris,30.9,52.8,,,,Île-de-France,11
+2021,76,Seine-Maritime,41.1,64.2,,,,Normandie,28
+2021,79,Deux-Sèvres,38.3,58.1,,,,Nouvelle Aquitaine,75
+2021,80,Somme,41.8,62.6,,,,Hauts-de-France,32
+2021,82,Tarn-et-Garonne,33.6,55.8,,,,Occitanie,76
+2021,87,Haute-Vienne,40.2,60.6,,,,Nouvelle Aquitaine,75
+2021,92,Hauts-de-Seine,30.5,55.6,,,,Île-de-France,11
+2021,95,Val-d'Oise,27.8,54.1,,,,Île-de-France,11
+2021,973,Guyane,10.7,18.5,,,,Guyane,3
+2022,02,Aisne,36.5,57.3,53.332130940571744,62.09388242964251,,Hauts-de-France,32
+2022,10,Aube,33.2,57.1,51.713244228432565,62.96844610874046,,Grand Est,44
+2022,14,Calvados,36.5,61.5,56.60901514472623,67.06219416343399,,Normandie,28
+2022,17,Charente-Maritime,32.6,58.1,52.36426319749336,64.40252090455986,,Nouvelle Aquitaine,75
+2022,18,Cher,34.3,57.8,52.261196747178055,63.41572032954799,,Centre-Val de Loire,24
+2022,22,Côtes-d'Armor,31.3,60.4,54.95445037548436,66.36265226642112,,Bretagne,53
+2022,23,Creuse,36.6,54.9,49.61374317973097,60.38556871385293,,Nouvelle Aquitaine,75
+2022,29,Finistère,35.6,65.0,60.16313527099826,70.3799623297595,,Bretagne,53
+2022,30,Gard,30.2,55.6,49.28234779651135,62.75760709814381,,Occitanie,76
+2022,31,Haute-Garonne,29.9,58.7,51.73841682853744,65.800188398689,,Occitanie,76
+2022,32,Gers,32.3,55.6,49.36544208120935,61.65944915988221,,Occitanie,76
+2022,36,Indre,34.4,53.8,48.5727818124408,58.92081677908158,,Centre-Val de Loire,24
+2022,39,Jura,31.5,52.4,45.82011541134173,59.218827313211285,,Bourgogne et Franche-Comté,27
+2022,41,Loir-et-Cher,35.6,58.5,53.40258686736671,63.67548613324833,,Centre-Val de Loire,24
+2022,43,Haute-Loire,32.4,50.1,44.06402271773855,56.72173518214522,,Auvergne et Rhône-Alpes,84
+2022,44,Loire-Atlantique,32.4,60.9,56.09082540656644,66.11859149286006,,Pays de la Loire,52
+2022,47,Lot-et-Garonne,27.6,53.5,46.93928282891057,60.04776387499745,,Nouvelle Aquitaine,75
+2022,51,Marne,37.2,61.6,57.7341403830893,66.09814589448064,,Grand Est,44
+2022,54,Meurthe-et-Moselle,37.5,59.3,56.00315314793133,62.87387523249384,,Grand Est,44
+2022,60,Oise,31.6,56.1,51.87373766518553,61.40832190214907,,Hauts-de-France,32
+2022,61,Orne,34.2,56.0,50.49268054233451,61.63583509513742,,Normandie,28
+2022,63,Puy-de-Dôme,35.9,59.6,54.051819864281306,65.64433575218163,,Auvergne et Rhône-Alpes,84
+2022,67,Bas-Rhin,31.5,53.3,48.65419954599503,58.6160523259368,,Grand Est,44
+2022,68,Haut-Rhin,28.1,47.9,42.46883733309675,54.43578590483199,,Grand Est,44
+2022,71,Saône-et-Loire,34.7,56.7,50.771201639764286,62.83806079484708,,Bourgogne et Franche-Comté,27
+2022,72,Sarthe,32.5,58.1,53.94902522686813,62.24802614454696,,Pays de la Loire,52
+2022,73,Savoie,32.1,52.1,45.77611015992132,58.84472269800957,,Auvergne et Rhône-Alpes,84
+2022,75,Paris,29.9,53.8,47.73063150116524,59.95027763267359,,Île-de-France,11
+2022,76,Seine-Maritime,38.2,63.5,59.41593905212032,68.18903830732219,,Normandie,28
+2022,78,Yvelines,28.5,58.3,52.32662703856119,64.54582780620302,,Île-de-France,11
+2022,79,Deux-Sèvres,35.1,57.3,52.178805876836506,62.450128092058286,,Nouvelle Aquitaine,75
+2022,80,Somme,38.1,61.6,58.32259211520512,65.4568921011874,,Hauts-de-France,32
+2022,81,Tarn,30.3,56.0,49.24901486741162,62.6958174904943,,Occitanie,76
+2022,83,Var,27.6,52.8,45.27554498103016,60.22106021229296,,Provence-Alpes-Côte d'Azur,93
+2022,86,Vienne,36.2,60.2,54.94034930251692,65.66327025715673,,Nouvelle Aquitaine,75
+2022,91,Essonne,27.8,58.4,51.84168259351979,65.5591054313099,,Île-de-France,11
+2022,95,Val-d'Oise,25.6,53.4,47.87860248245687,60.51513792859334,,Île-de-France,11
+2022,2B,Haute-Corse,27.8,50.2,42.33918660722409,58.47441506562679,,Corse,94
+2023,02,Aisne,29.6,56.2,50.16026400138948,63.355337608449645,27.394777297973636,Hauts-de-France,32
+2023,03,Allier,27.2,54.0,45.94697692160977,61.85654182478139,27.433311462402344,Auvergne et Rhône-Alpes,84
+2023,08,Ardennes,29.2,58.1,51.65278070201824,65.75072546841973,26.277219772338867,Grand Est,44
+2023,09,Ariège,23.4,48.1,39.74797972880428,56.764355492018105,23.33333396911621,Occitanie,76
+2023,10,Aube,26.1,54.5,47.45432599989027,61.93812025685931,28.415740966796875,Grand Est,44
+2023,12,Aveyron,26.0,52.9,43.74352868088632,61.63197869402249,22.471715927124023,Occitanie,76
+2023,15,Cantal,31.1,57.5,49.4149711009821,65.67321514135122,25.047607421875,Auvergne et Rhône-Alpes,84
+2023,18,Cher,27.2,55.0,47.70612448546838,62.345045202975136,29.95685768127441,Centre-Val de Loire,24
+2023,21,Côte-d'Or,29.5,57.3,49.73980274570055,65.04647757839899,34.50904846191406,Bourgogne et Franche-Comté,27
+2023,23,Creuse,28.2,52.1,45.10645321010068,59.171100532063846,23.063047409057617,Nouvelle Aquitaine,75
+2023,24,Dordogne,25.2,51.2,43.60826811157937,59.225720288604045,27.962018966674805,Nouvelle Aquitaine,75
+2023,28,Eure-et-Loir,25.9,56.3,49.63172109010557,63.491818462488425,32.0992546081543,Centre-Val de Loire,24
+2023,29,Finistère,30.6,62.9,56.16454248636823,70.39091194330116,41.09674453735352,Bretagne,53
+2023,33,Gironde,26.7,59.0,51.57364898501024,66.84525351482468,36.182106018066406,Nouvelle Aquitaine,75
+2023,35,Ille-et-Vilaine,28.1,59.3,52.37022816215019,66.6082366991563,36.64926910400391,Bretagne,53
+2023,39,Jura,24.2,49.7,41.48311983534544,58.01172142901677,27.06820106506348,Bourgogne et Franche-Comté,27
+2023,40,Landes,25.3,57.0,49.67574366597513,64.90427641391896,32.67276382446289,Nouvelle Aquitaine,75
+2023,41,Loir-et-Cher,28.3,56.1,49.07041865589423,63.11039484286866,34.81132125854492,Centre-Val de Loire,24
+2023,44,Loire-Atlantique,28.0,59.8,52.66998059977399,67.32444953775845,40.508296966552734,Pays de la Loire,52
+2023,48,Lozère,27.3,51.1,43.7220602526725,58.95959699804667,19.28189468383789,Occitanie,76
+2023,49,Maine-et-Loire,27.3,58.7,50.86187990701346,66.85506384147179,37.465293884277344,Pays de la Loire,52
+2023,50,Manche,30.3,58.0,51.09672832832239,65.19637831885477,33.59769821166992,Normandie,28
+2023,53,Mayenne,26.0,54.5,47.090238396740624,61.88991585046213,30.653562545776367,Pays de la Loire,52
+2023,54,Meurthe-et-Moselle,30.0,59.2,53.028688884154064,65.93776052699913,35.57167434692383,Grand Est,44
+2023,57,Moselle,25.3,53.6,46.17098830480073,63.011687958684426,25.207921981811523,Grand Est,44
+2023,60,Oise,25.2,53.5,47.50309241915533,60.829624966016574,28.81072998046875,Hauts-de-France,32
+2023,61,Orne,27.7,53.2,45.86693283601692,60.61090250592528,27.22138786315918,Normandie,28
+2023,69,Rhône,25.9,56.0,47.979455783959054,63.63108255877529,34.6490592956543,Auvergne et Rhône-Alpes,84
+2023,74,Haute-Savoie,22.3,48.6,40.63543899885327,57.03284530276136,26.979965209960938,Auvergne et Rhône-Alpes,84
+2023,76,Seine-Maritime,31.7,61.4,55.55780465843496,67.94659836224628,36.92755508422852,Normandie,28
+2023,80,Somme,31.5,59.6,54.10663916775348,65.84391447082733,33.16508865356445,Hauts-de-France,32
+2023,85,Vendée,27.7,57.9,50.51541287492449,66.10240611300671,36.786224365234375,Pays de la Loire,52
+2023,88,Vosges,28.3,53.2,46.477481293237325,60.70457660248489,25.829687118530277,Grand Est,44
+2023,89,Yonne,25.7,53.9,46.8469281812847,61.68666301588092,28.9935359954834,Bourgogne et Franche-Comté,27
+2023,91,Essonne,22.7,55.9,47.58505062043426,64.66432131339783,33.346038818359375,Île-de-France,11
+2023,972,Martinique,4.8,11.2,8.67968864737847,14.32400010209551,2.2037806510925293,Martinique,2
+2023,973,Guyane,7.5,14.9,12.934919110585804,18.80955871573083,2.418804168701172,Guyane,3
+2024,03,Allier,26.4,53.3,45.6,60.3,,Auvergne et Rhône-Alpes,84
+2024,07,Ardèche,23.4,48.6,40.7,56.4,,Auvergne et Rhône-Alpes,84
+2024,08,Ardennes,28.8,56.9,51.0,63.5,,Grand Est,44
+2024,09,Ariège,22.4,47.6,39.5,55.6,,Occitanie,76
+2024,15,Cantal,29.8,56.5,48.9,63.9,,Auvergne et Rhône-Alpes,84
+2024,17,Charente-Maritime,26.2,55.5,48.4,62.5,,Nouvelle Aquitaine,75
+2024,19,Corrèze,26.1,53.6,46.3,60.4,,Nouvelle Aquitaine,75
+2024,21,Côte-d'Or,28.6,56.6,49.6,63.3,,Bourgogne et Franche-Comté,27
+2024,22,Côtes-d'Armor,26.0,57.3,50.6,64.1,,Bretagne,53
+2024,25,Doubs,24.0,51.5,44.2,58.4,,Bourgogne et Franche-Comté,27
+2024,31,Haute-Garonne,25.0,56.3,48.2,64.2,,Occitanie,76
+2024,33,Gironde,27.1,59.1,52.0,66.1,,Nouvelle Aquitaine,75
+2024,34,Hérault,24.2,54.5,46.3,62.3,,Occitanie,76
+2024,38,Isère,27.6,55.1,48.1,62.1,,Auvergne et Rhône-Alpes,84
+2024,39,Jura,23.6,48.5,40.7,56.0,,Bourgogne et Franche-Comté,27
+2024,48,Lozère,26.6,50.1,43.1,57.0,,Occitanie,76
+2024,49,Maine-et-Loire,27.3,58.1,50.9,65.2,,Pays de la Loire,52
+2024,53,Mayenne,25.8,53.4,46.5,59.9,,Pays de la Loire,52
+2024,55,Meuse,27.1,53.9,48.3,60.0,,Grand Est,44
+2024,56,Morbihan,25.5,57.5,50.2,65.1,,Bretagne,53
+2024,57,Moselle,25.0,53.1,46.2,61.1,,Grand Est,44
+2024,61,Orne,26.7,52.2,45.2,58.9,,Normandie,28
+2024,62,Pas-de-Calais,31.6,57.3,53.3,62.2,,Hauts-de-France,32
+2024,64,Pyrénées-Atlantiques,25.4,57.0,49.1,64.4,,Nouvelle Aquitaine,75
+2024,66,Pyrénées-Orientales,21.1,49.6,41.6,57.1,,Occitanie,76
+2024,71,Saône-et-Loire,26.9,53.1,45.7,60.0,,Bourgogne et Franche-Comté,27
+2024,73,Savoie,25.7,51.8,44.2,59.3,,Auvergne et Rhône-Alpes,84
+2024,78,Yvelines,23.9,55.9,48.6,62.9,,Île-de-France,11
+2024,79,Deux-Sèvres,26.9,53.8,47.2,60.0,,Nouvelle Aquitaine,75
+2024,80,Somme,30.5,58.5,53.6,63.7,,Hauts-de-France,32
+2024,81,Tarn,24.6,52.7,44.5,60.4,,Occitanie,76
+2024,83,Var,21.3,50.1,41.5,58.0,,Provence-Alpes-Côte d'Azur,93
+2024,87,Haute-Vienne,29.0,57.1,50.8,63.0,,Nouvelle Aquitaine,75
+2024,91,Essonne,23.0,55.5,47.7,63.4,,Île-de-France,11
+2024,93,Seine-Saint-Denis,19.5,43.8,37.6,51.6,,Île-de-France,11
+2024,95,Val-d'Oise,20.1,50.8,43.9,58.8,,Île-de-France,11
+2024,974,Réunion,,,,,,Réunion,4

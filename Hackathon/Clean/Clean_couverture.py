@@ -1,20 +1,45 @@
+#!/usr/bin/env python3
+"""
+Clean_couverture.py - Fusion des données de couverture vaccinale
+
+DESCRIPTION:
+    Script de fusion des fichiers CSV de couverture vaccinale de plusieurs années.
+    Ajoute automatiquement une colonne "annees" extraite du nom de fichier.
+
+FONCTIONNALITÉS:
+    - Fusion de fichiers CSV de couverture vaccinale (2021-2024)
+    - Détection automatique des séparateurs CSV
+    - Extraction automatique de l'année depuis le nom de fichier
+    - Ajout d'une colonne "annees" pour traçabilité temporelle
+    - Sauvegarde dans le dossier Data_Clean
+
+USAGE:
+    python Clean_couverture.py [fichier_sortie.csv]
+
+AUTEUR: Stéfan Beaulieu
+DATE: 2025
+"""
+
+# =============================================================================
+# IMPORTS ET CONFIGURATION
+# =============================================================================
 import os
 import re
 import sys
 from pathlib import Path
 import pandas as pd
 
-# Clean_couverture.py
-# Fusionne plusieurs fichiers CSV en ajoutant une colonne "annees"
-# Usage: python Clean_couverture.py [output.csv]
-
-
+# Liste des fichiers de couverture vaccinale à fusionner
 FILES = [
-    r"Hackathon\Data\Vaccin\2021\couverture-2021.csv",
-    r"Hackathon\Data\Vaccin\2022\couverture-2022.csv",
-    r"Hackathon\Data\Vaccin\2023\couverture-2023.csv",
-    r"Hackathon\Data\Vaccin\2024\couverture-2024.csv",
+    r"Hackathon\Data\Vaccin\2021\couverture-2021.csv",  # Couverture 2021
+    r"Hackathon\Data\Vaccin\2022\couverture-2022.csv",  # Couverture 2022
+    r"Hackathon\Data\Vaccin\2023\couverture-2023.csv",  # Couverture 2023
+    r"Hackathon\Data\Vaccin\2024\couverture-2024.csv",  # Couverture 2024
 ]
+
+# =============================================================================
+# FONCTIONS UTILITAIRES
+# =============================================================================
 
 
 def read_csv_guess_sep(path: Path) -> pd.DataFrame:

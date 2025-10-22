@@ -1,16 +1,53 @@
+#!/usr/bin/env python3
+"""
+Clean_Taux_infermier.py - Nettoyage des données de taux d'infirmiers
+
+DESCRIPTION:
+    Script de conversion et nettoyage des données Excel de taux d'infirmiers.
+    Convertit le fichier Excel en CSV et effectue des transformations spécifiques.
+
+FONCTIONNALITÉS:
+    - Conversion Excel vers CSV
+    - Extraction des codes régions depuis la colonne indicateur
+    - Suppression de la colonne "Auxiliaires médicaux"
+    - Création d'une colonne 'region' basée sur l'extraction
+    - Nettoyage et normalisation des données
+
+TRANSFORMATIONS SPÉCIFIQUES:
+    - Extraction du code région depuis la colonne "indicateur"
+    - Suppression des colonnes contenant "auxiliaires" ou "médicaux"
+    - Normalisation des noms de colonnes
+
+USAGE:
+    python Clean_Taux_infermier.py
+
+AUTEUR: Stéfan Beaulieu
+DATE: 2025
+"""
+
+# =============================================================================
+# IMPORTS
+# =============================================================================
 import sys
 from pathlib import Path
 import pandas as pd
 import re
 
-# Clean_Taux_infermier.py
-# GitHub Copilot
-# Convertir Taux_infermier.xlsx en CSV, extraire codes régions, supprimer colonne auxiliaires médicaux
+# =============================================================================
+# FONCTIONS DE TRANSFORMATION
+# =============================================================================
 
 def transform_dataframe(df):
-    """Transforme le DataFrame pour extraire codes régions et nettoyer les données"""
+    """
+    Transforme le DataFrame pour extraire codes régions et nettoyer les données.
     
-    # Copier le DataFrame pour éviter les modifications
+    Args:
+        df (pd.DataFrame): DataFrame original à transformer
+        
+    Returns:
+        pd.DataFrame: DataFrame transformé et nettoyé
+    """
+    # Copier le DataFrame pour éviter les modifications sur l'original
     df_clean = df.copy()
     
     # Supprimer la colonne "Auxiliaires médicaux" si elle existe

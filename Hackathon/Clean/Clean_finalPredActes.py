@@ -1,3 +1,36 @@
+#!/usr/bin/env python3
+"""
+Clean_finalPredActes.py - Nettoyage des données de prédictions d'actes médicaux
+
+DESCRIPTION:
+    Script de nettoyage et normalisation des données de prédictions d'actes médicaux.
+    Ce script traite les données pour les préparer à l'analyse et à la modélisation.
+
+FONCTIONNALITÉS:
+    - Normalisation des noms de colonnes
+    - Détection automatique de l'encodage et des séparateurs
+    - Extraction des informations de région et groupe depuis les colonnes catégorielles  
+    - Conversion et validation des types de données
+    - Suppression des valeurs négatives dans les colonnes numériques
+    - Nettoyage des chaînes de caractères
+    - Suppression des lignes et colonnes largement vides
+    - Élimination des doublons
+
+USAGE:
+    python Clean_finalPredActes.py --input "chemin/vers/finalPredActes.csv" 
+                                  --output "chemin/vers/finalPredActes_cleaned.csv"
+
+EXEMPLE:
+    python Clean_finalPredActes.py --input "Hackathon/Data/finalPredActes.csv" 
+                                  --output "Hackathon/Data_Clean/finalPredActes_cleaned.csv"
+
+AUTEUR: Stéfan Beaulieu
+DATE: 2025
+"""
+
+# =============================================================================
+# IMPORTS
+# =============================================================================
 from pathlib import Path
 import argparse
 import logging
@@ -6,70 +39,187 @@ import unicodedata
 import pandas as pd
 import numpy as np
 
-#!/usr/bin/env python3
-# GitHub Copilot
-"""
-Clean Hackathon/Data/finalPredActes.csv and write a cleaned version.
-Usage:
-    python Clean_finalPredActes.py --input "Hackathon/Data/finalPredActes.csv" --output "Hackathon/Data/finalPredActes.cleaned.csv"
-"""
-
-
-
-
+# Configuration du logging pour suivre le processus de nettoyage
 logging.basicConfig(level=logging.INFO, format="%(levelname)s: %(message)s")
 
 
+# =============================================================================
+# FONCTIONS UTILITAIRES DE NORMALISATION
+# =============================================================================
+
 def normalize_colname(s: str) -> str:
+    """
+    Normalise les noms de colonnes pour assurer la cohérence.
+    
+    Cette fonction transforme les noms de colonnes en format standardisé:
+    - Conversion en minuscules
+    - Remplacement des espaces et tirets par des underscores
+    - Suppression de la ponctuation
+    - Normalisation Unicode pour gérer les accents
+    
+    Args:
+        s (str): Nom de colonne original
+        
+    Returns:
+        str: Nom de colonne normalisé
+        
+    Example:
+        normalize_colname("Taux d'Urgences (%)") -> "taux_d_urgences"
+    """
+    # Conversion en chaîne et suppression des espaces en début/fin
     s = str(s).strip()
+    
+    # Normalisation Unicode (décomposition des caractères accentués)
     s = unicodedata.normalize("NFKD", s)
-    s = re.sub(r"[^\w\s-]", "", s)  # remove punctuation
+    
+    # Suppression de la ponctuation (garde seulement lettres, chiffres, espaces, tirets)
+    s = re.sub(r"[^\w\s-]", "", s)
+    
+    # Conversion en minuscules
     s = s.lower()
+    
+    # Remplacement des espaces et tirets multiples par un seul underscore
     s = re.sub(r"[\s-]+", "_", s)
+    
+    # Suppression des underscores multiples consécutifs
     s = re.sub(r"_+", "_", s)
+    
+    # Suppression des underscores en début et fin
     return s.strip("_")
 
 
 def clean_string_value(v):
+    """
+    Nettoie et normalise une valeur de type chaîne de caractères.
+    
+    Cette fonction effectue un nettoyage complet des chaînes:
+    - Gestion des valeurs manquantes (NaN)
+    - Suppression des espaces en début/fin
+    - Normalisation Unicode
+    - Suppression des caractères de contrôle
+    - Réduction des espaces multiples
+    
+    Args:
+        v: Valeur à nettoyer (peut être string, numeric, ou NaN)
+        
+    Returns:
+        str ou NaN: Valeur nettoyée ou NaN si l'entrée était NaN
+        
+    Note:
+        - Préserve les valeurs NaN pour maintenir l'intégrité des données manquantes
+        - Convertit automatiquement les types non-string en string avant nettoyage
+    """
+    # Préserver les valeurs manquantes
     if pd.isna(v):
         return v
+    
+    # Conversion en string si nécessaire
     if not isinstance(v, str):
         v = str(v)
+    
+    # Suppression des espaces en début et fin
     v = v.strip()
+    
+    # Normalisation Unicode pour la cohérence des caractères
     v = unicodedata.normalize("NFKC", v)
-    # remove control characters
+    
+    # Suppression des caractères de contrôle (non-printables)
     v = re.sub(r"[\x00-\x1f\x7f]", "", v)
-    # collapse multiple spaces
+    
+    # Réduction des espaces multiples à un seul espace
     v = re.sub(r"\s+", " ", v)
     return v
 
 
 def detect_date_columns(cols):
-    date_keywords = ["date", "jour", "day", "mois", "month", "semaine", "week", "année", "year", "année predite"]
-    return [c for c in cols if any(k in c for k in date_keywords)]
+    """
+    Détecte automatiquement les colonnes qui contiennent des dates.
+    
+    Cette fonction identifie les colonnes potentiellement temporelles en 
+    cherchant des mots-clés spécifiques dans les noms de colonnes.
+    
+    Args:
+        cols: Liste des noms de colonnes à analyser
+        
+    Returns:
+        list: Liste des noms de colonnes identifiées comme contenant des dates
+        
+    Note:
+        - Supporte les mots-clés en français et anglais
+        - Inclut les variations courantes (jour/day, mois/month, etc.)
+        - Case-insensitive grâce à la normalisation préalable des noms
+    """
+    # Mots-clés pour identifier les colonnes de dates (français + anglais)
+    date_keywords = [
+        "date", "jour", "day", "mois", "month", "semaine", "week", 
+        "année", "year", "année_predite", "annee", "annee_predite"
+    ]
+    
+    # Recherche des colonnes contenant ces mots-clés
+    return [col for col in cols if any(keyword in col for keyword in date_keywords)]
 
+
+# =============================================================================
+# FONCTION PRINCIPALE DE NETTOYAGE
+# =============================================================================
 
 def main(input_path: Path, output_path: Path):
+    """
+    Fonction principale orchestrant le processus complet de nettoyage des données.
+    
+    Cette fonction coordonne toutes les étapes du nettoyage:
+    1. Lecture du fichier avec détection automatique d'encodage
+    2. Normalisation des noms de colonnes
+    3. Nettoyage des données
+    4. Conversion des types
+    5. Sauvegarde du résultat
+    
+    Args:
+        input_path (Path): Chemin vers le fichier CSV d'entrée
+        output_path (Path): Chemin vers le fichier CSV de sortie nettoyé
+    """
+    # ==========================================================================
+    # ÉTAPE 1: VALIDATION ET LECTURE DU FICHIER D'ENTRÉE
+    # ==========================================================================
+    
+    # Vérification de l'existence du fichier d'entrée
     if not input_path.exists():
-        logging.error("Input file does not exist: %s", input_path)
+        logging.error("Le fichier d'entrée n'existe pas: %s", input_path)
         return
 
-    # read with heuristics for encoding and separators
+    logging.info("Début du nettoyage de: %s", input_path)
+    
+    # Lecture avec détection automatique de l'encodage et des séparateurs
     try:
+        # Tentative principale: UTF-8 avec détection automatique du séparateur
         df = pd.read_csv(input_path, sep=None, engine="python", encoding="utf-8")
+        logging.info("Fichier lu avec encodage UTF-8")
     except Exception:
-        df = pd.read_csv(input_path, engine="python", encoding="latin1")
-
-    # normalize column names
+        try:
+            # Tentative de fallback: latin1 (compatible Windows)
+            df = pd.read_csv(input_path, engine="python", encoding="latin1")
+            logging.info("Fichier lu avec encodage latin1 (fallback)")
+        except Exception as e:
+            logging.error("Impossible de lire le fichier: %s", e)
+            return
+    
+    logging.info("Données initiales: %d lignes, %d colonnes", len(df), len(df.columns))
+    
+    # ==========================================================================
+    # ÉTAPE 2: NORMALISATION DES NOMS DE COLONNES
+    # ==========================================================================
+    
+    # Sauvegarde des noms originaux et création des noms normalisés
     original_cols = list(df.columns)
     new_cols = [normalize_colname(c) for c in original_cols]
     
-    # Remove "region_" prefix from column names
+    # Suppression du préfixe "region_" des noms de colonnes pour simplifier
     new_cols = [col.replace("region_", "") if col.startswith("region_") else col for col in new_cols]
     
+    # Application des nouveaux noms de colonnes normalisés
     rename_map = dict(zip(original_cols, new_cols))
     df.rename(columns=rename_map, inplace=True)
-    logging.info("Columns normalized and region_ prefix removed: %s", new_cols)
+    logging.info("Colonnes normalisées et préfixe 'region_' supprimé: %s", new_cols)
 
     # drop empty columns
     n_rows = len(df)
@@ -115,7 +265,23 @@ def main(input_path: Path, output_path: Path):
     df['region'] = df.apply(get_region_name, axis=1)
     logging.info("Created 'region' column based on first 14 columns")
     
-    # Remove the first 14 columns since we now have the region info in 'region' column
+    # Create a 'groupe' column based on the group columns in the first 14 columns
+    # Find columns that contain group information (with "groupe_" in name)
+    group_cols = [col for col in region_cols if 'groupe_' in col]
+    
+    def get_groupe_name(row):
+        for col in group_cols:
+            if col in row.index:
+                value = str(row[col])
+                # If the value is not "0", "0.0", "nan", etc., it's likely the group name
+                if value not in ['0', '0.0', '0.00', 'nan', 'None', '']:
+                    return value
+        return 'unknown'  # fallback if no group found
+    
+    df['groupe'] = df.apply(get_groupe_name, axis=1)
+    logging.info("Created 'groupe' column based on group columns: %s", group_cols)
+    
+    # Remove the first 14 columns since we now have the region and group info in separate columns
     cols_to_drop = df.columns[:14].tolist()
     df = df.drop(columns=cols_to_drop)
     logging.info("Dropped first 14 columns: %s", cols_to_drop)
@@ -134,10 +300,14 @@ def main(input_path: Path, output_path: Path):
             df[col] = df[col].astype(str)
             logging.info("Forced column '%s' to string type", col)
     
-    # region column should also be string
+    # region and groupe columns should also be strings
     if 'region' in df.columns:
         df['region'] = df['region'].astype(str)
         logging.info("Forced column 'region' to string type")
+    
+    if 'groupe' in df.columns:
+        df['groupe'] = df['groupe'].astype(str)
+        logging.info("Forced column 'groupe' to string type")
     
     # annee, annee_predite and code columns should be integers
     int_cols = ['annee', 'annee_predite', 'code', 'actes', 'doses']
@@ -156,7 +326,7 @@ def main(input_path: Path, output_path: Path):
             logging.debug("Could not parse date column: %s", c)
 
     # coerce numeric-like columns (skip the ones we already forced)
-    skip_cols = region_and_age_cols + int_cols + date_cols + ['region']
+    skip_cols = region_and_age_cols + int_cols + date_cols + ['region', 'groupe']
     for c in df.columns:
         if c in skip_cols:
             continue

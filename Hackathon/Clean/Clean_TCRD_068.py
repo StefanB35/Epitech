@@ -1,31 +1,66 @@
+#!/usr/bin/env python3
+"""
+Clean_TCRD_068.py - Nettoyage des données de densité de praticiens médicaux
+
+DESCRIPTION:
+    Script spécialisé pour convertir et nettoyer les données Excel TCRD_068.xlsx
+    contenant les informations de densité des praticiens médicaux par région.
+
+FONCTIONNALITÉS:
+    - Conversion Excel vers CSV pour manipulation plus facile
+    - Normalisation des noms de colonnes pour cohérence
+    - Validation et conversion des types de données
+    - Forçage des colonnes numériques (densités) en float
+    - Forçage des colonnes identifiantes (code, région) en string
+    - Suppression des lignes largement vides
+
+DONNÉES TRAITÉES:
+    - Code et région
+    - Ensemble des médecins et densités
+    - Généralistes et spécialistes (densité pour 100k habitants)
+    - Chirurgiens dentistes (densité pour 100k habitants)  
+    - Pharmaciens (densité pour 100k habitants)
+
+USAGE:
+    python Clean_TCRD_068.py
+
+AUTEUR: Stéfan Beaulieu
+DATE: 2025
+"""
+
+# =============================================================================
+# IMPORTS ET CONFIGURATION
+# =============================================================================
 from pathlib import Path
 import re
 import pandas as pd
 import numpy as np
 import sys
 
-#!/usr/bin/env python3
-# -*- coding: utf-8 -*-
-# Script: Clean_TCRD_068.py
-# Objectif: nettoyer Hackathon/Data/TCRD_068.xlsx et écrire un fichier nettoyé dans Data_Clean
-# Usage: python Clean_TCRD_068.py
+# =============================================================================
+# CHEMINS ET CONFIGURATION
+# =============================================================================
 
-
+# Chemins des fichiers d'entrée et sortie
 INPUT_PATH = Path("Hackathon") / "Data" / "TCRD_068.xlsx"
 OUTPUT_DIR = Path("Hackathon") / "Data_Clean"
-OUTPUT_PATH = OUTPUT_DIR / "TCRD_068_cleaned.csv"  # Changed to CSV for easier handling
+OUTPUT_PATH = OUTPUT_DIR / "TCRD_068_cleaned.csv"  # CSV pour manipulation plus facile
 
-# Définir les noms de colonnes attendus
+# Définition des noms de colonnes attendus après nettoyage
 EXPECTED_COLUMNS = [
-    "code",
-    "region", 
-    "ensemble_des_medecins",
-    "ensemble_des_medecins_densite_pour_100_000_habitants",
-    "dont_generalistes_densite_pour_100_000_habitants", 
-    "dont_specialistes_densite_pour_100_000_habitants",
-    "chirurg_dentistes_densite_pour_100_000_habitants",
-    "pharm_densite_pour_100_000_habitants"
+    "code",                                                    # Code régional
+    "region",                                                  # Nom de la région
+    "ensemble_des_medecins",                                   # Nombre total de médecins
+    "ensemble_des_medecins_densite_pour_100_000_habitants",   # Densité médecins/100k hab
+    "dont_generalistes_densite_pour_100_000_habitants",       # Densité généralistes/100k hab
+    "dont_specialistes_densite_pour_100_000_habitants",       # Densité spécialistes/100k hab
+    "chirurg_dentistes_densite_pour_100_000_habitants",       # Densité dentistes/100k hab
+    "pharm_densite_pour_100_000_habitants"                    # Densité pharmaciens/100k hab
 ]
+
+# =============================================================================
+# FONCTIONS UTILITAIRES
+# =============================================================================
 
 def normalize_columns(cols):
     # normaliser noms de colonnes selon le mapping défini

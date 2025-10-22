@@ -1,3 +1,28 @@
+#!/usr/bin/env python3
+"""
+Clean_finalPredDoses.py - Nettoyage des données de prédictions de doses
+
+DESCRIPTION:
+    Script de nettoyage et normalisation des données de prédictions de doses médicales.
+    Traite les données pour l'analyse et la modélisation des prédictions de doses.
+
+FONCTIONNALITÉS PRINCIPALES:
+    - Normalisation des noms de colonnes
+    - Extraction des informations de région et groupe d'âge
+    - Conversion et validation des types de données
+    - Nettoyage des valeurs négatives
+    - Suppression des doublons et données manquantes
+
+USAGE:
+    python Clean_finalPredDoses.py --input "fichier_entree.csv" --output "fichier_sortie.csv"
+
+AUTEUR: Stéfan Beaulieu
+DATE: 2025
+"""
+
+# =============================================================================
+# IMPORTS ET CONFIGURATION
+# =============================================================================
 from pathlib import Path
 import argparse
 import logging
@@ -6,21 +31,14 @@ import unicodedata
 import pandas as pd
 import numpy as np
 
-#!/usr/bin/env python3
-# GitHub Copilot
-"""
-Clean Hackathon/Data/finalPredDoses.csv and write a cleaned version.
-Usage:
-    python Clean_finalPredDoses.py --input "Hackathon/Data/finalPredDoses.csv" --output "Hackathon/Data/finalPredDoses.cleaned.csv"
-"""
-
-
-
-
 logging.basicConfig(level=logging.INFO, format="%(levelname)s: %(message)s")
 
+# =============================================================================
+# FONCTIONS UTILITAIRES
+# =============================================================================
 
 def normalize_colname(s: str) -> str:
+    """Normalise les noms de colonnes (voir Clean_finalPredActes.py pour documentation détaillée)"""
     s = str(s).strip()
     s = unicodedata.normalize("NFKD", s)
     s = re.sub(r"[^\w\s-]", "", s)  # remove punctuation
@@ -115,7 +133,23 @@ def main(input_path: Path, output_path: Path):
     df['region'] = df.apply(get_region_name, axis=1)
     logging.info("Created 'region' column based on first 14 columns")
     
-    # Remove the first 14 columns since we now have the region info in 'region' column
+    # Create a 'groupe' column based on the group columns in the first 14 columns
+    # Find columns that contain group information (with "groupe_" in name)
+    group_cols = [col for col in region_cols if 'groupe_' in col]
+    
+    def get_groupe_name(row):
+        for col in group_cols:
+            if col in row.index:
+                value = str(row[col])
+                # If the value is not "0", "0.0", "nan", etc., it's likely the group name
+                if value not in ['0', '0.0', '0.00', 'nan', 'None', '']:
+                    return value
+        return 'unknown'  # fallback if no group found
+    
+    df['groupe'] = df.apply(get_groupe_name, axis=1)
+    logging.info("Created 'groupe' column based on group columns: %s", group_cols)
+    
+    # Remove the first 14 columns since we now have the region and group info in separate columns
     cols_to_drop = df.columns[:14].tolist()
     df = df.drop(columns=cols_to_drop)
     logging.info("Dropped first 14 columns: %s", cols_to_drop)
@@ -134,10 +168,14 @@ def main(input_path: Path, output_path: Path):
             df[col] = df[col].astype(str)
             logging.info("Forced column '%s' to string type", col)
     
-    # region column should also be string
+    # region and groupe columns should also be strings
     if 'region' in df.columns:
         df['region'] = df['region'].astype(str)
         logging.info("Forced column 'region' to string type")
+    
+    if 'groupe' in df.columns:
+        df['groupe'] = df['groupe'].astype(str)
+        logging.info("Forced column 'groupe' to string type")
     
     # annee, annee_predite and code columns should be integers
     int_cols = ['annee', 'annee_predite', 'code', 'actes', 'doses']
@@ -157,7 +195,7 @@ def main(input_path: Path, output_path: Path):
             logging.debug("Could not parse date column: %s", c)
 
     # coerce numeric-like columns (skip the ones we already forced)
-    skip_cols = region_and_age_cols + int_cols + date_cols + ['region']
+    skip_cols = region_and_age_cols + int_cols + date_cols + ['region', 'groupe']
     for c in df.columns:
         if c in skip_cols:
             continue

@@ -1,3 +1,33 @@
+#!/usr/bin/env python3
+"""
+Clean_predi_doses_2025.py - Nettoyage des données de prédictions de doses 2025
+
+DESCRIPTION:
+    Script spécialisé pour le nettoyage des données de prédictions de doses pour l'année 2025.
+    Traite les colonnes de région et de groupe d'âge pour créer des colonnes consolidées.
+
+FONCTIONNALITÉS PRINCIPALES:
+    - Extraction automatique des informations de région depuis les 14 premières colonnes
+    - Extraction automatique des informations de groupe d'âge 
+    - Suppression des colonnes redondantes après extraction
+    - Normalisation des types de données (string, int, float)
+    - Nettoyage des valeurs manquantes et doublons
+
+TRAITEMENT SPÉCIFIQUE:
+    - Conversion des valeurs "1" en noms de colonnes pour les catégories
+    - Création de colonnes 'region' et 'groupe' consolidées
+    - Suppression des 14 premières colonnes après extraction des informations
+
+USAGE:
+    python Clean_predi_doses_2025.py --input "fichier.csv" --output "fichier_clean.csv"
+
+AUTEUR: Stéfan Beaulieu  
+DATE: 2025
+"""
+
+# =============================================================================
+# IMPORTS ET CONFIGURATION
+# =============================================================================
 from pathlib import Path
 import argparse
 import logging
@@ -6,24 +36,18 @@ import unicodedata
 import pandas as pd
 import numpy as np
 
-#!/usr/bin/env python3
-# GitHub Copilot
-"""
-Clean Hackathon/Data/predi_doses_2025.csv and write a cleaned version.
-Usage:
-    python Clean_predi_doses_2025.py --input "Hackathon/Data/predi_doses_2025.csv" --output "Hackathon/Data/predi_doses_2025.cleaned.csv"
-"""
-
-
-
-
 logging.basicConfig(level=logging.INFO, format="%(levelname)s: %(message)s")
 
 
+# =============================================================================
+# FONCTIONS UTILITAIRES
+# =============================================================================
+
 def normalize_colname(s: str) -> str:
+    """Normalise les noms de colonnes pour cohérence"""
     s = str(s).strip()
     s = unicodedata.normalize("NFKD", s)
-    s = re.sub(r"[^\w\s-]", "", s)  # remove punctuation
+    s = re.sub(r"[^\w\s-]", "", s)  # supprime ponctuation
     s = s.lower()
     s = re.sub(r"[\s-]+", "_", s)
     s = re.sub(r"_+", "_", s)
@@ -31,20 +55,22 @@ def normalize_colname(s: str) -> str:
 
 
 def clean_string_value(v):
+    """Nettoie et normalise les valeurs de type chaîne"""
     if pd.isna(v):
         return v
     if not isinstance(v, str):
         v = str(v)
     v = v.strip()
     v = unicodedata.normalize("NFKC", v)
-    # remove control characters
+    # supprime caractères de contrôle
     v = re.sub(r"[\x00-\x1f\x7f]", "", v)
-    # collapse multiple spaces
+    # réduit espaces multiples
     v = re.sub(r"\s+", " ", v)
     return v
 
 
 def detect_date_columns(cols):
+    """Détecte automatiquement les colonnes contenant des dates"""
     date_keywords = ["date", "jour", "day", "mois", "month", "semaine", "week", "année", "year"]
     return [c for c in cols if any(k in c for k in date_keywords)]
 
@@ -115,7 +141,23 @@ def main(input_path: Path, output_path: Path):
     df['region'] = df.apply(get_region_name, axis=1)
     logging.info("Created 'region' column based on first 14 columns")
     
-    # Remove the first 14 columns since we now have the region info in 'region' column
+    # Create a 'groupe' column based on the group columns in the first 14 columns
+    # Find columns that contain group information (with "groupe_" in name)
+    group_cols = [col for col in region_cols if 'groupe_' in col]
+    
+    def get_groupe_name(row):
+        for col in group_cols:
+            if col in row.index:
+                value = str(row[col])
+                # If the value is not "0", "0.0", "nan", etc., it's likely the group name
+                if value not in ['0', '0.0', '0.00', 'nan', 'None', '']:
+                    return value
+        return 'unknown'  # fallback if no group found
+    
+    df['groupe'] = df.apply(get_groupe_name, axis=1)
+    logging.info("Created 'groupe' column based on group columns: %s", group_cols)
+    
+    # Remove the first 14 columns since we now have the region and group info in separate columns
     cols_to_drop = df.columns[:14].tolist()
     df = df.drop(columns=cols_to_drop)
     logging.info("Dropped first 14 columns: %s", cols_to_drop)
@@ -134,10 +176,14 @@ def main(input_path: Path, output_path: Path):
             df[col] = df[col].astype(str)
             logging.info("Forced column '%s' to string type", col)
     
-    # region column should also be string
+    # region and groupe columns should also be strings
     if 'region' in df.columns:
         df['region'] = df['region'].astype(str)
         logging.info("Forced column 'region' to string type")
+    
+    if 'groupe' in df.columns:
+        df['groupe'] = df['groupe'].astype(str)
+        logging.info("Forced column 'groupe' to string type")
     
     # annee and code columns should be integers
     int_cols = ['annee', 'code']
@@ -156,7 +202,7 @@ def main(input_path: Path, output_path: Path):
             logging.debug("Could not parse date column: %s", c)
 
     # coerce numeric-like columns (skip the ones we already forced)
-    skip_cols = region_and_age_cols + int_cols + date_cols + ['region']
+    skip_cols = region_and_age_cols + int_cols + date_cols + ['region', 'groupe']
     for c in df.columns:
         if c in skip_cols:
             continue

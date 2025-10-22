@@ -1,32 +1,72 @@
+#!/usr/bin/env python3
+"""
+Clean_couvertures-vaccinales-des-adolescents-et-adultes-depuis-2011-france copy.py
+Nettoyage des données de couverture vaccinale France depuis 2011
+
+DESCRIPTION:
+    Script de nettoyage pour les données nationales françaises de couverture 
+    vaccinale des adolescents et adultes depuis 2011. Version de traitement
+    spécifique pour les données agrégées au niveau national.
+
+FONCTIONNALITÉS:
+    - Suppression de colonnes spécifiques HPV et méningocoque
+    - Sauvegarde automatique du fichier original
+    - Traitement des données temporelles (2011 à aujourd'hui)
+    - Préservation de l'encodage UTF-8
+    - Sortie standardisée vers Data_Clean
+
+SPÉCIFICITÉ:
+    Traite les données au niveau national français (agrégation de toutes les régions)
+    contrairement aux versions départementales ou régionales.
+
+USAGE:
+    python "Clean_couvertures-vaccinales-des-adolescents-et-adultes-depuis-2011-france copy.py"
+
+AUTEUR: Stéfan Beaulieu
+DATE: 2025
+"""
+
+# =============================================================================
+# IMPORTS ET CONFIGURATION
+# =============================================================================
 from pathlib import Path
 import shutil
 import pandas as pd
 import sys
 
-#!/usr/bin/env python3
-# GitHub Copilot
-# Nettoie le CSV en supprimant les colonnes demandées et sauvegarde dans Data_Clean
 
+# =============================================================================
+# CONFIGURATION DES DONNÉES NATIONALES FRANÇAISES
+# =============================================================================
 
+# Fichier source - données nationales France depuis 2011
 INPUT = Path("Hackathon/Data/couvertures-vaccinales-des-adolescents-et-adultes-depuis-2011-france.csv")
+
+# Validation de l'existence du fichier
 if not INPUT.exists():
-    print(f"Fichier introuvable: {INPUT}")
+    print(f"Fichier source introuvable: {INPUT}")
     sys.exit(1)
 
-# Colonnes à supprimer
+# Colonnes à exclure de l'analyse (identiques à la version départementale)
+# Focus sur les vaccinations HPV et méningocoque spécifiques
 TO_DROP = [
-    "HPV filles 1 dose à 15 ans",
-    "HPV filles 2 doses à 16 ans",
-    "HPV garçons 1 dose à 15 ans",
-    "HPV garçons 2 doses à 16 ans",
-    "Méningocoque C 10-14 ans",
-    "Méningocoque C 15-19 ans",
-    "Méningocoque C 20-24 ans",
+    "HPV filles 1 dose à 15 ans",      # Papillomavirus - filles 1ère dose
+    "HPV filles 2 doses à 16 ans",     # Papillomavirus - filles rappel
+    "HPV garçons 1 dose à 15 ans",     # Papillomavirus - garçons 1ère dose
+    "HPV garçons 2 doses à 16 ans",    # Papillomavirus - garçons rappel
+    "Méningocoque C 10-14 ans",        # Méningocoque C - 10-14 ans
+    "Méningocoque C 15-19 ans",        # Méningocoque C - 15-19 ans
+    "Méningocoque C 20-24 ans",        # Méningocoque C - 20-24 ans
 ]
 
-# Sauvegarde du fichier original
+print("🇫🇷 Traitement des données nationales françaises de couverture vaccinale")
+print(f"Période couverte: depuis 2011")
+print(f"Fichier source: {INPUT}")
+
+# Sauvegarde préventive du fichier original
 bak = INPUT.with_suffix(INPUT.suffix + ".bak")
 shutil.copy2(INPUT, bak)
+print(f"Sauvegarde créée: {bak}")
 
 # Chargement, suppression et écriture
 df = pd.read_csv(INPUT, encoding="utf-8")

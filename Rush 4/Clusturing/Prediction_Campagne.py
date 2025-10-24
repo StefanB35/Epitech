@@ -28,6 +28,8 @@ import seaborn as sns
 from datetime import datetime
 import warnings
 warnings.filterwarnings('ignore')
+import os
+import pickle
 
 # Machine Learning
 from sklearn.model_selection import train_test_split, cross_val_score, StratifiedKFold
@@ -46,7 +48,7 @@ try:
     HAS_XGBOOST = True
 except ImportError:
     HAS_XGBOOST = False
-    print("⚠️ XGBoost non installé. Installation recommandée: pip install xgboost")
+    print("XGBoost non installé. Installation recommandée: pip install xgboost")
 
 # =============================================================================
 # CONFIGURATION
@@ -63,19 +65,19 @@ def load_and_prepare_data(file_path):
     """
     Charge et prépare les données pour la prédiction
     """
-    print("📂 Chargement des données...")
+    print(" Chargement des données...")
     df = pd.read_csv(file_path)
     print(f"   Données chargées: {len(df)} lignes, {len(df.columns)} colonnes")
     
     # Informations sur la variable cible
     if TARGET_COLUMN in df.columns:
         target_counts = df[TARGET_COLUMN].value_counts()
-        print(f"\n🎯 Distribution de la variable cible '{TARGET_COLUMN}':")
+        print(f"\n Distribution de la variable cible '{TARGET_COLUMN}':")
         for value, count in target_counts.items():
             percentage = (count / len(df)) * 100
             print(f"   {value}: {count} ({percentage:.1f}%)")
     else:
-        print(f"❌ Colonne cible '{TARGET_COLUMN}' non trouvée!")
+        print(f" Colonne cible '{TARGET_COLUMN}' non trouvée!")
         return None
     
     return df
@@ -84,7 +86,7 @@ def create_features(df):
     """
     Crée de nouvelles features à partir des données existantes
     """
-    print("\n🔧 Création de nouvelles features...")
+    print("\n Création de nouvelles features...")
     df_features = df.copy()
     
     # Feature d'âge basée sur Year_Birth
@@ -110,7 +112,7 @@ def create_features(df):
         reference_date = df_features['Dt_Customer'].max()
         df_features['Customer_Days'] = (reference_date - df_features['Dt_Customer']).dt.days
     except:
-        print("   ⚠️ Impossible de calculer l'ancienneté client")
+        print("    Impossible de calculer l'ancienneté client")
     
     # Dépense moyenne par achat
     df_features['Avg_Spending_Per_Purchase'] = np.where(
@@ -126,7 +128,7 @@ def create_features(df):
         df_features['Total_Spending'] * 0.0001
     )
     
-    print(f"   ✅ {len([col for col in df_features.columns if col not in df.columns])} nouvelles features créées")
+    print(f"    {len([col for col in df_features.columns if col not in df.columns])} nouvelles features créées")
     
     return df_features
 
@@ -134,7 +136,7 @@ def prepare_features_target(df):
     """
     Prépare les features et la variable cible pour l'entraînement
     """
-    print("\n🎯 Préparation des features et target...")
+    print("\n Préparation des features et target...")
     
     # Colonnes à exclure des features
     exclude_cols = [
@@ -167,7 +169,7 @@ def train_multiple_models(X_train, X_test, y_train, y_test):
     """
     Entraîne plusieurs modèles et compare leurs performances
     """
-    print("\n🤖 Entraînement de multiples modèles...")
+    print("\n Entraînement de multiples modèles...")
     
     # Définition des modèles
     models = {
@@ -183,7 +185,7 @@ def train_multiple_models(X_train, X_test, y_train, y_test):
     trained_models = {}
     
     for name, model in models.items():
-        print(f"\n   🔄 Entraînement {name}...")
+        print(f"\n    Entraînement {name}...")
         
         # Entraînement
         model.fit(X_train, y_train)
@@ -214,7 +216,7 @@ def plot_model_comparison(results):
     """
     Graphique de comparaison des performances des modèles
     """
-    print("\n📊 Génération des graphiques de comparaison...")
+    print("\n Génération des graphiques de comparaison...")
     
     # Préparation des données pour le graphique
     metrics = ['accuracy', 'precision', 'recall', 'f1', 'roc_auc']
@@ -317,24 +319,24 @@ def plot_model_comparison(results):
     best_f1 = results[best_model]['f1']
     
     recommendations = f"""
-    🏆 RECOMMANDATIONS
+     RECOMMANDATIONS
     
     Meilleur modèle: {best_model}
     F1-Score: {best_f1:.4f}
     
-    📈 INTERPRÉTATION:
+     INTERPRÉTATION:
     • Accuracy: Précision générale
     • Precision: Évite les faux positifs
     • Recall: Capture tous les vrais positifs
     • F1: Équilibre precision/recall
     • ROC-AUC: Performance de classement
     
-    🎯 UTILISATION:
+     UTILISATION:
     • F1 > 0.7: Excellent
     • F1 > 0.5: Acceptable
     • F1 < 0.5: À améliorer
     
-    💡 Le modèle {best_model} est
+     Le modèle {best_model} est
     recommandé pour prédire
     l'acceptation des campagnes.
     """
@@ -351,7 +353,7 @@ def analyze_feature_importance(model, feature_names, model_name):
     """
     Analyse l'importance des features pour le meilleur modèle
     """
-    print(f"\n🔍 Analyse de l'importance des features ({model_name})...")
+    print(f"\n Analyse de l'importance des features ({model_name})...")
     
     # Récupérer l'importance des features selon le type de modèle
     if hasattr(model, 'feature_importances_'):
@@ -359,7 +361,7 @@ def analyze_feature_importance(model, feature_names, model_name):
     elif hasattr(model, 'coef_'):
         importances = np.abs(model.coef_[0])
     else:
-        print("   ⚠️ Impossible d'extraire l'importance des features pour ce modèle")
+        print("    Impossible d'extraire l'importance des features pour ce modèle")
         return
     
     # Créer DataFrame pour l'analyse
@@ -390,7 +392,7 @@ def analyze_feature_importance(model, feature_names, model_name):
     plt.show()
     
     # Afficher le top 10 dans la console
-    print("🏆 TOP 10 FEATURES LES PLUS IMPORTANTES:")
+    print(" TOP 10 FEATURES LES PLUS IMPORTANTES:")
     for i, (_, row) in enumerate(feature_importance_df.head(10).iterrows(), 1):
         print(f"   {i:2d}. {row['Feature']:<25} Importance: {row['Importance']:.4f}")
     
@@ -407,7 +409,7 @@ def predict_new_customers(model, scaler, feature_names, sample_data=None, custom
         sample_data: Données des clients (DataFrame ou array)
         customer_ids: IDs des clients (optionnel)
     """
-    print("\n🔮 Prédictions pour nouveaux clients...")
+    print("\n Prédictions pour nouveaux clients...")
     
     if sample_data is None:
         print("   Aucune donnée fournie pour la prédiction")
@@ -447,12 +449,12 @@ def predict_by_customer_id(df, model, scaler, feature_names, customer_id):
     """
     # Vérifier si l'ID existe
     if 'ID' not in df.columns:
-        print("❌ Colonne 'ID' non trouvée dans les données")
+        print(" Colonne 'ID' non trouvée dans les données")
         return None
         
     customer_row = df[df['ID'] == customer_id]
     if customer_row.empty:
-        print(f"❌ Client avec ID {customer_id} non trouvé")
+        print(f" Client avec ID {customer_id} non trouvé")
         return None
     
     # Préparer les données du client
@@ -496,7 +498,7 @@ def main():
     Fonction principale d'exécution
     """
     print("=" * 70)
-    print("🎯 PRÉDICTION D'ACCEPTATION DE CAMPAGNE MARKETING")
+    print(" PRÉDICTION D'ACCEPTATION DE CAMPAGNE MARKETING")
     print("=" * 70)
     
     # 1. Chargement et préparation des données
@@ -511,7 +513,7 @@ def main():
     X, y, feature_names = prepare_features_target(df_enhanced)
     
     # 4. Division train/test (en conservant les IDs)
-    print(f"\n📊 Division des données (80% train, 20% test)...")
+    print(f"\n Division des données (80% train, 20% test)...")
     
     # Récupérer les IDs pour les conserver
     customer_ids = df_enhanced['ID'] if 'ID' in df_enhanced.columns else range(len(df_enhanced))
@@ -521,7 +523,7 @@ def main():
     )
     
     # 5. Normalisation des features
-    print("⚖️ Normalisation des features...")
+    print(" Normalisation des features...")
     scaler = StandardScaler()
     X_train_scaled = scaler.fit_transform(X_train)
     X_test_scaled = scaler.transform(X_test)
@@ -537,7 +539,7 @@ def main():
     feature_importance_df = analyze_feature_importance(best_model, feature_names, best_model_name)
     
     # 9. Matrice de confusion pour le meilleur modèle
-    print(f"\n📈 Matrice de confusion ({best_model_name})...")
+    print(f"\n Matrice de confusion ({best_model_name})...")
     y_pred_best = results[best_model_name]['predictions']
     
     plt.figure(figsize=(8, 6))
@@ -551,12 +553,12 @@ def main():
     plt.show()
     
     # 10. Rapport de classification détaillé
-    print(f"\n📋 Rapport de classification détaillé ({best_model_name}):")
+    print(f"\n Rapport de classification détaillé ({best_model_name}):")
     print(classification_report(y_test, y_pred_best, 
                               target_names=['Refusera', 'Acceptera']))
     
     # 11. Sauvegarde du modèle et des résultats
-    print(f"\n💾 Sauvegarde des résultats...")
+    print(f"\n Sauvegarde des résultats...")
     
     # Créer un DataFrame avec les prédictions (en utilisant les vrais IDs)
     results_df = pd.DataFrame({
@@ -568,15 +570,41 @@ def main():
     
     # Sauvegarder les résultats
     results_df.to_csv('Rush 4/Cleaned_data/Campaign_Predictions.csv', index=False)
-    print("   ✅ Prédictions sauvegardées dans: Rush 4/Cleaned_data/Campaign_Predictions.csv")
+    print("    Prédictions sauvegardées dans: Rush 4/Cleaned_data/Campaign_Predictions.csv")
     
     # Sauvegarder l'importance des features
     if feature_importance_df is not None:
         feature_importance_df.to_csv('Rush 4/Cleaned_data/Feature_Importance.csv', index=False)
-        print("   ✅ Importance des features sauvegardée dans: Rush 4/Cleaned_data/Feature_Importance.csv")
+        print("    Importance des features sauvegardée dans: Rush 4/Cleaned_data/Feature_Importance.csv")
+    
+    # 12. Sauvegarder le modèle et le scaler avec pickle
+    try:
+        model_path = 'Rush 4/Cleaned_data/best_model.pkl'
+        scaler_path = 'Rush 4/Cleaned_data/scaler.pkl'
+        feature_names_path = 'Rush 4/Cleaned_data/feature_names.pkl'
+
+        # S'assurer que le dossier existe
+        os.makedirs(os.path.dirname(model_path), exist_ok=True)
+
+        # Sauvegarde du modèle
+        with open(model_path, 'wb') as f:
+            pickle.dump(best_model, f)
+        print(f"    Modèle sauvegardé dans: {model_path}")
+
+        # Sauvegarde du scaler
+        with open(scaler_path, 'wb') as f:
+            pickle.dump(scaler, f)
+        print(f"    Scaler sauvegardé dans: {scaler_path}")
+
+        # Sauvegarde des noms de features (utile pour reconstruction)
+        with open(feature_names_path, 'wb') as f:
+            pickle.dump(feature_names, f)
+        print(f"    Noms des features sauvegardés dans: {feature_names_path}")
+    except Exception as e:
+        print(f"     Erreur lors de la sauvegarde du modèle/scaler: {e}")
     
     print("\n" + "=" * 70)
-    print(f"🎉 ANALYSE TERMINÉE ! Meilleur modèle: {best_model_name}")
+    print(f" ANALYSE TERMINÉE ! Meilleur modèle: {best_model_name}")
     print("=" * 70)
     
     return best_model, scaler, feature_names, results

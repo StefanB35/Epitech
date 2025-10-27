@@ -222,9 +222,28 @@ def plot_model_comparison(results):
     metrics = ['accuracy', 'precision', 'recall', 'f1', 'roc_auc']
     model_names = list(results.keys())
     
-    # Création du graphique
-    fig, axes = plt.subplots(2, 3, figsize=(18, 12))
-    fig.suptitle('Comparaison des Performances des Modèles de Prédiction', fontsize=16)
+    # Obtenir la taille de l'écran et ajuster la figure
+    try:
+        import tkinter as tk
+        root = tk.Tk()
+        screen_width = root.winfo_screenwidth()
+        screen_height = root.winfo_screenheight()
+        root.destroy()
+        
+        # Utiliser 90% de la taille de l'écran
+        fig_width = (screen_width * 0.9) / 100  # Conversion en inches (DPI ~100)
+        fig_height = (screen_height * 0.85) / 100
+        
+        print(f"   Taille écran détectée: {screen_width}x{screen_height}")
+        print(f"   Taille figure adaptée: {fig_width:.1f}x{fig_height:.1f} inches")
+    except:
+        # Valeurs par défaut si détection échoue
+        fig_width, fig_height = 20, 14
+        print("   Taille écran non détectée, utilisation des valeurs par défaut")
+    
+    # Création du graphique avec taille adaptée
+    fig, axes = plt.subplots(2, 3, figsize=(fig_width, fig_height))
+    fig.suptitle('Comparaison des Performances des Modèles de Prédiction', fontsize=18, fontweight='bold')
     
     # 1. Graphique en barres des métriques
     ax1 = axes[0, 0]

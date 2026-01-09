@@ -1,0 +1,11 @@
+{
+    "allowed_domains": [
+        "skyscanner.fr",
+        "parisaeroport.fr",
+        "nice.aeroport.fr",
+        "marseille.aeroport.fr",
+        "aeroportparisbeauvais.com",
+        "reunion.aeroport.fr",
+        "rennes.aeroport.fr"
+    ]
+}
